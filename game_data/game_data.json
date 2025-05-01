@@ -46,6 +46,22 @@
       ]
     },
     {
+      "Name": "Reformer",
+      "Tier": "0-1",
+      "AveragePower": "-4",
+      "OverclockPowerExponent": "1321929/1000000",
+      "MaxProductionShards": 1,
+      "ProductionShardMultiplier": "1",
+      "ProductionShardPowerExponent": "2",
+      "Cost": [
+        {"Part": "Bronze Frame", "Amount": "5"},
+        {"Part": "Reinforced Iron Plate", "Amount": "10"},
+        {"Part": "Bronze Pipes", "Amount": "15"},
+        {"Part": "Caterium Heatsink", "Amount": "20"},
+        {"Part": "Cable", "Amount": "30"}
+      ]
+    },
+    {
       "Name": "Smelter",
       "Tier": "0-2",
       "AveragePower": "-4",
@@ -54,8 +70,10 @@
       "ProductionShardMultiplier": "1",
       "ProductionShardPowerExponent": "2",
       "Cost": [
-        {"Part": "Iron Rod", "Amount": "5"},
-        {"Part": "Wire", "Amount": "8"}
+        {"Part": "Iron Plate", "Amount": "5"},
+        {"Part": "Wire", "Amount": "10"},
+        {"Part": "Cable", "Amount": "3"},
+        {"Part": "Iron Rod", "Amount": "5"}
       ]
     },
     {
@@ -78,8 +96,9 @@
       "ProductionShardMultiplier": "1",
       "ProductionShardPowerExponent": "2",
       "Cost": [
-        {"Part": "Reinforced Iron Plate", "Amount": "2"},
-        {"Part": "Cable", "Amount": "8"}
+        {"Part": "Iron Plate", "Amount": "10"},
+        {"Part": "Cable", "Amount": "2"},
+        {"Part": "Screw", "Amount": "10"}
       ]
     },
     {
@@ -177,6 +196,46 @@
         {"Part": "Reinforced Iron Plate", "Amount": "20"},
         {"Part": "Rotor", "Amount": "10"},
         {"Part": "Cable", "Amount": "30"}
+      ]
+    },
+    {
+      "Name": "Modular Power Boiler Mk.1",
+      "Tier": "0-1",
+      "AveragePower": "0",
+      "OverclockPowerExponent": "1",
+      "Cost": [
+        {"Part": "Iron Sheet", "Amount": "10"},
+        {"Part": "Iron Wire", "Amount": "20"},
+        {"Part": "Screw", "Amount": "50"},
+        {"Part": "Iron Rod", "Amount": "10"},
+        {"Part": "Copper Sheet", "Amount": "20"},
+        {"Part": "Iron Plate", "Amount": "25"}
+      ]
+    },
+    {
+      "Name": "Modular Power Boiler Mk.2",
+      "Tier": "0-1",
+      "AveragePower": "0",
+      "OverclockPowerExponent": "1",
+      "Cost": [
+        {"Part": "Iron Sheet", "Amount": "10"},
+        {"Part": "Iron Wire", "Amount": "20"},
+        {"Part": "Screw", "Amount": "50"},
+        {"Part": "Iron Rod", "Amount": "10"},
+        {"Part": "Copper Sheet", "Amount": "20"},
+        {"Part": "Iron Plate", "Amount": "25"}
+      ]
+    },
+    {
+      "Name": "Modular Power Generator Mk.1",
+      "Tier": "0-1",
+      "AveragePower": "150",
+      "OverclockPowerExponent": "1",
+      "Cost": [
+        {"Part": "Iron Sheet", "Amount": "10"},
+        {"Part": "Iron Wire", "Amount": "20"},
+        {"Part": "Screw", "Amount": "20"},
+        {"Part": "Iron Rod", "Amount": "10"}
       ]
     },
     {
@@ -679,7 +738,17 @@
       "SinkPoints": 2
     },
     {
+      "Name": "Packaged Flue Gas",
+      "Tier": "0-1",
+      "SinkPoints": 2
+    },
+    {
       "Name": "Iron Sheet",
+      "Tier": "0-1",
+      "SinkPoints": 2
+    },
+    {
+      "Name": "Iron Wire",
       "Tier": "0-1",
       "SinkPoints": 2
     },
@@ -703,6 +772,21 @@
       "Tier": "0-1",
       "SinkPoints": 2
     },	
+    {
+      "Name": "Ethylene Gas",
+      "Tier": "0-1",
+      "SinkPoints": 2
+    },
+    {
+      "Name": "Hydrogen Gas",
+      "Tier": "0-1",
+      "SinkPoints": 2
+    },
+    {
+      "Name": "Caterium Heatsink",
+      "Tier": "0-1",
+      "SinkPoints": 2
+    },
     {
       "Name": "Iron Ingot",
       "Tier": "0-0",
@@ -1602,6 +1686,122 @@
       ]
     },
     {
+      "Name": "Sweet Fuel",
+      "Machine": "Chemical Reactor",
+      "BatchTime": "6",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Heavy Oil Residue", "Amount": "-9"},
+        {"Part": "Water", "Amount": "-6"},
+        {"Part": "Fuel", "Amount": "9"},
+        {"Part": "Sulfur", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Heavy Ethylene Gas",
+      "Machine": "Chemical Reactor",
+      "BatchTime": "6",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Heavy Oil Residue", "Amount": "-2"},
+        {"Part": "Steam", "Amount": "-8"},
+        {"Part": "Ethylene Gas", "Amount": "6"},
+        {"Part": "Polymer Resin", "Amount": "12"},
+        {"Part": "Sulfur", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Light Ethylene Gas",
+      "Machine": "Refinery",
+      "BatchTime": "6",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Natural Gas", "Amount": "-5"},
+        {"Part": "Ethylene Gas", "Amount": "6"}
+      ]
+    },
+    {
+      "Name": "Pure Ethylene",
+      "Machine": "Refinery",
+      "BatchTime": "5",
+      "Alternate": true,
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Hydrogen Gas", "Amount": "-10"},
+        {"Part": "Packaged Flue Gas", "Amount": "-2"},
+        {"Part": "Ethylene Gas", "Amount": "10"},
+        {"Part": "Empty Fluid Tank", "Amount": "2"}
+      ]
+    },
+    {
+      "Name": "Syngas Hydrogen",
+      "Machine": "Chemical Reactor",
+      "BatchTime": "12",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Natural Gas", "Amount": "-10"},
+        {"Part": "Steam", "Amount": "-12"},
+        {"Part": "Hydrogen Gas", "Amount": "16"},
+        {"Part": "Flue Gas", "Amount": "16"}
+      ]
+    },
+    {
+      "Name": "Polyethylene",
+      "Machine": "Reformer",
+      "BatchTime": "24",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Ethylene Gas", "Amount": "-18"},
+        {"Part": "Plastic", "Amount": "25"},
+        {"Part": "Rubber", "Amount": "25"}
+      ]
+    },
+    {
+      "Name": "Residual Hydrogen",
+      "Machine": "Reformer",
+      "BatchTime": "6",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Flue Gas", "Amount": "-8"},
+        {"Part": "Steam", "Amount": "-8"},
+        {"Part": "Hydrogen Gas", "Amount": "10"},
+        {"Part": "Sulfur", "Amount": "1"}
+      ]
+    },
+    {
+      "Name": "Cured Rubber",
+      "Machine": "Foundry",
+      "BatchTime": "18",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Polymer Resin", "Amount": "-24"},
+        {"Part": "Sulfur", "Amount": "-13"},
+        {"Part": "Rubber", "Amount": "12"}
+      ]
+    },
+    {
+      "Name": "Cured Plastic",
+      "Machine": "Refinery",
+      "BatchTime": "12",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Polymer Resin", "Amount": "-24"},
+        {"Part": "Fuel", "Amount": "-3"},
+        {"Part": "Plastic", "Amount": "12"}
+      ]
+    },
+    {
+      "Name": "Synthetic Fabric",
+      "Machine": "Refinery",
+      "BatchTime": "4",
+      "Tier": "0-1",
+      "Parts": [
+        {"Part": "Polymer Resin", "Amount": "-6"},
+        {"Part": "Steam", "Amount": "-1"},
+        {"Part": "Fabric", "Amount": "2"}
+      ]
+    },
+    {
       "Name": "Iron Ore",
       "Machine": "Miner",
       "BatchTime": "60",
@@ -1697,7 +1897,7 @@
       "BatchTime": "1",
       "Tier": "5-2",
       "Parts": [
-        {"Part": "Crude Oil", "Amount": "2"}
+        {"Part": "Crude Oil", "Amount": "1.5"}
       ]
     },
     {
@@ -1964,17 +2164,6 @@
       "Parts": [
         {"Part": "Copper Ingot", "Amount": "-1"},
         {"Part": "Wire", "Amount": "2"}
-      ]
-    },
-    {
-      "Name": "Iron Wire",
-      "Machine": "Constructor",
-      "BatchTime": "24",
-      "Alternate": true,
-      "Tier": "0-3",
-      "Parts": [
-        {"Part": "Iron Ingot", "Amount": "-5"},
-        {"Part": "Wire", "Amount": "9"}
       ]
     },
     {
@@ -2746,6 +2935,63 @@
       ]
     },
     {
+      "Name": "Fuel Boiler Mk.1",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "3-1",
+      "Parts": [
+        {"Part": "Fuel", "Amount": "-15"},
+        {"Part": "Flue Gas", "Amount": "30"},
+        {"Part": "Water", "Amount": "-15"},
+        {"Part": "Steam", "Amount": "30"}
+      ]
+    },
+    {
+      "Name": "Fuel Boiler Mk.2",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "3-1",
+      "Parts": [
+        {"Part": "Fuel", "Amount": "-15"},
+        {"Part": "Flue Gas", "Amount": "30"},
+        {"Part": "Water", "Amount": "-45"},
+        {"Part": "Steam", "Amount": "90"}
+      ]
+    },
+    {
+      "Name": "Ethylene Boiler Mk.1",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "3-1",
+      "Parts": [
+        {"Part": "Ethylene Gas", "Amount": "-20"},
+        {"Part": "Flue Gas", "Amount": "15"},
+        {"Part": "Water", "Amount": "-15"},
+        {"Part": "Steam", "Amount": "30"}
+      ]
+    },    {
+      "Name": "Ethylene Boiler Mk.2",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "3-1",
+      "Parts": [
+        {"Part": "Ethylene Gas", "Amount": "-20"},
+        {"Part": "Flue Gas", "Amount": "15"},
+        {"Part": "Water", "Amount": "-45"},
+        {"Part": "Steam", "Amount": "90"}
+      ]
+    },
+    {
+      "Name": "Steam Generator Mk.1",
+      "Machine": "Modular Power Generator Mk.1",
+      "BatchTime": "60",
+      "Tier": "3-1",
+      "Parts": [
+        {"Part": "Steam", "Amount": "-40"},
+        {"Part": "Water", "Amount": "5"}
+      ]
+    },
+    {
       "Name": "Coal Generator",
       "Machine": "Coal-Powered Generator",
       "BatchTime": "4",
@@ -3064,7 +3310,7 @@
       "Tier": "5-2",
       "Parts": [
         {"Part": "Heavy Oil Residue", "Amount": "-4"},
-        {"Part": "Petroleum Coke", "Amount": "12"}
+        {"Part": "Petroleum Coke", "Amount": "15"}
       ]
     },
     {
