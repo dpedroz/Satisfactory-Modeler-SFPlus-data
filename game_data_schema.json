@@ -1,0 +1,300 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Satisfactory Modeler SFPlus Game Data",
+  "description": "Schema for game_data.json used by Satisfactory Modeler SFPlus",
+  "type": "object",
+  "properties": {
+    "Machines": {
+      "description": "List of individual buildable machines.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "description": "Unique name of the machine.",
+            "type": "string"
+          },
+          "Tier": {
+            "description": "Tier the machine is unlocked in (format 'Major-Minor').",
+            "type": "string",
+            "pattern": "^\\d+-\\d+$"
+          },
+          "AveragePower": {
+            "description": "Average power consumption (negative) or generation (positive) in MW, as a string.",
+            "type": "string",
+            "pattern": "^-?\\d+(\\.\\d+)?$"
+          },
+          "OverclockPowerExponent": {
+            "description": "Exponent used for power calculation during overclocking, as a string (can be fraction).",
+            "type": "string",
+            "pattern": "^(\\d+(\\.\\d+)?|\\d+/\\d+)$"
+          },
+          "MaxProductionShards": {
+            "description": "Maximum number of Power Shards usable for production boost.",
+            "type": "integer",
+            "minimum": 0
+          },
+          "ProductionShardMultiplier": {
+            "description": "Production boost multiplier per shard, as a string (fraction). TODO: pattern?",
+            "type": "string"
+          },
+          "ProductionShardPowerExponent": {
+            "description": "Exponent used for power calculation when using production shards, as a string.",
+            "type": "string",
+            "pattern": "^\\d+(\\.\\d+)?$"
+          },
+          "Cost": {
+            "description": "List of parts required to build the machine.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Part": {
+                  "description": "Name of the required part.",
+                  "type": "string"
+                },
+                "Amount": {
+                  "description": "Quantity of the part required, as a string.",
+                  "type": "string",
+                  "pattern": "^\\d+(\\.\\d+)?$"
+                }
+              },
+              "required": [
+                "Part",
+                "Amount"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "MinPower": {
+            "description": "Minimum power generation (e.g., Geothermal), as a string.",
+            "type": "string",
+            "pattern": "^-?\\d+(\\.\\d+)?$"
+          },
+          "BasePower": {
+            "description": "Base power generation before boosts (e.g., Alien Power Augmenter), as a string.",
+            "type": "string",
+            "pattern": "^-?\\d+(\\.\\d+)?$"
+          },
+          "BasePowerBoost": {
+            "description": "Power boost multiplier (e.g., Alien Power Augmenter), as a string (fraction).",
+            "type": "string",
+            "pattern": "^\\d+/\\d+$"
+          },
+          "FueledBasePowerBoost": {
+            "description": "Power boost multiplier when fueled (e.g., Alien Power Augmenter), as a string (fraction).",
+            "type": "string",
+            "pattern": "^\\d+/\\d+$"
+          }
+        },
+        "required": [
+          "Name",
+          "Tier"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "MultiMachines": {
+      "description": "Groups of related machines or abstract concepts treated as machines (e.g., Miners, Storage).",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "description": "Unique name for the multi-machine group.",
+            "type": "string"
+          },
+          "ShowPpm": {
+            "description": "Whether to display parts-per-minute (PPM) options.",
+            "type": "boolean"
+          },
+          "DefaultMax": {
+            "description": "Default maximum PPM or count, as a string (can be empty).",
+            "type": "string"
+          },
+          "Machines": {
+            "description": "List of specific machines belonging to this group (e.g., Miner Mk.1, Mk.2).",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Name": {
+                  "description": "Name of the specific machine (must match a name in the 'Machines' list).",
+                  "type": "string"
+                },
+                "PartsRatio": {
+                  "description": "Relative production rate compared to the base, as a string (number or fraction).",
+                  "type": "string",
+                  "pattern": "^(\\d+(\\.\\d+)?|\\d+/\\d+)$"
+                },
+                "Default": {
+                  "description": "Whether this is the default machine selection.",
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "Name"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "Capacities": {
+            "description": "List of operational modes or capacities (e.g., Node Purity, Storage State).",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Name": {
+                  "description": "Name of the capacity/mode.",
+                  "type": "string"
+                },
+                "PartsRatio": {
+                  "description": "Relative production/throughput rate for this capacity, as a string (number or fraction).",
+                  "type": "string",
+                  "pattern": "^(\\d+(\\.\\d+)?|\\d+/\\d+)$"
+                },
+                "PowerRatio": {
+                  "description": "Relative power generation for this capacity, as a string (fraction).",
+                  "type": "string",
+                  "pattern": "^\\d+(/\\d+)?$"
+                },
+                "Default": {
+                  "description": "Whether this is the default capacity selection.",
+                  "type": "boolean"
+                },
+                "Color": {
+                  "description": "UI color representation (integer).",
+                  "type": "integer"
+                },
+                "Description": {
+                  "description": "Tooltip description (can contain HTML).",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "Name"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "Name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "Parts": {
+      "description": "List of all items and fluids in the game.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "description": "Unique name of the part.",
+            "type": "string"
+          },
+          "Tier": {
+            "description": "Tier the part is primarily associated with (format 'Major-Minor').",
+            "type": "string",
+            "pattern": "^\\d+-\\d+$"
+          },
+          "SinkPoints": {
+            "description": "Point value when sunk in the AWESOME Sink (0 if unsinkable).",
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "Name",
+          "Tier",
+          "SinkPoints"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "Recipes": {
+      "description": "List of all crafting and resource extraction recipes.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "description": "Unique name of the recipe.",
+            "type": "string"
+          },
+          "Machine": {
+            "description": "Name of the machine or multi-machine group that performs this recipe.",
+            "type": "string"
+          },
+          "BatchTime": {
+            "description": "Time in seconds to complete one crafting cycle, as a string (number or fraction).",
+            "type": "string",
+            "pattern": "^(\\d+(\\.\\d+)?|\\d+/\\d+)$"
+          },
+          "Tier": {
+            "description": "Tier the recipe is unlocked in (format 'Major-Minor').",
+            "type": "string",
+            "pattern": "^\\d+-\\d+$"
+          },
+          "Parts": {
+            "description": "List of input (negative amount) and output (positive amount) parts per cycle.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Part": {
+                  "description": "Name of the input or output part.",
+                  "type": "string"
+                },
+                "Amount": {
+                  "description": "Quantity of the part consumed (-) or produced (+) per cycle, as a string (number or fraction).",
+                  "type": "string",
+                  "pattern": "^-?\\d+(\\.\\d+)?(/\\d+)?$"
+                }
+              },
+              "required": [
+                "Part",
+                "Amount"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "Alternate": {
+            "description": "Whether this is an alternate recipe.",
+            "type": "boolean"
+          },
+          "MinPower": {
+            "description": "Minimum power consumption for this specific recipe (overrides machine default), as a string.",
+            "type": "string",
+            "pattern": "^-?\\d+(\\.\\d+)?$"
+          },
+          "AveragePower": {
+            "description": "Average power consumption for this specific recipe (overrides machine default), as a string.",
+            "type": "string",
+            "pattern": "^-?\\d+(\\.\\d+)?$"
+          },
+          "Ficsmas": {
+            "description": "Whether this is a FICSMAS event recipe.",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "Name",
+          "Machine",
+          "BatchTime",
+          "Tier",
+          "Parts"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "Machines",
+    "MultiMachines",
+    "Parts",
+    "Recipes"
+  ],
+  "additionalProperties": false
+}
