@@ -85,6 +85,9 @@
             "description": "Power boost multiplier when fueled (e.g., Alien Power Augmenter), as a string (fraction).",
             "type": "string",
             "pattern": "^\\d+/\\d+$"
+          },
+          "Credit": {
+            "type": "string"
           }
         },
         "required": [
@@ -176,6 +179,9 @@
               ],
               "additionalProperties": false
             }
+          },
+          "Credit": {
+            "type": "string"
           }
         },
         "required": [
@@ -203,6 +209,9 @@
             "description": "Point value when sunk in the AWESOME Sink (0 if unsinkable).",
             "type": "integer",
             "minimum": 0
+          },
+          "Credit": {
+            "type": "string"
           }
         },
         "required": [
@@ -277,6 +286,9 @@
           "Ficsmas": {
             "description": "Whether this is a FICSMAS event recipe.",
             "type": "boolean"
+          },
+          "Credit": {
+            "type": "string"
           }
         },
         "required": [
