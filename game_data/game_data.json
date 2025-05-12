@@ -3992,6 +3992,27 @@
       "Credit": "asmo"
     },
     {
+      "Name": "Algal Mass Filtered",
+      "Machine": "Filtrator",
+      "BatchTime": "6",
+      "Tier": "2-1",
+      "Parts": [
+        {
+          "Part": "Algal Mass",
+          "Amount": "-3"
+        },
+        {
+          "Part": "Biomass",
+          "Amount": "6"
+        },
+        {
+          "Part": "Water",
+          "Amount": "0.5"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Alien DNA Capsule",
       "Machine": "Constructor",
       "BatchTime": "6",
@@ -4314,23 +4335,6 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Biomass (Alien Protein)",
-      "Machine": "Constructor",
-      "BatchTime": "4",
-      "Tier": "0-3",
-      "Parts": [
-        {
-          "Part": "Alien Protein",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Biomass",
-          "Amount": "100"
-        }
-      ],
-      "todo": "verify"
-    },
-    {
       "Name": "Biomass (Leaves)",
       "Machine": "Constructor",
       "BatchTime": "5",
@@ -4345,23 +4349,6 @@
           "Amount": "5"
         }
       ]
-    },
-    {
-      "Name": "Biomass (Mycelia)",
-      "Machine": "Constructor",
-      "BatchTime": "4",
-      "Tier": "0-3",
-      "Parts": [
-        {
-          "Part": "Mycelia",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Biomass",
-          "Amount": "10"
-        }
-      ],
-      "todo": "verify"
     },
     {
       "Name": "Biomass (Wood)",
@@ -5105,6 +5092,7 @@
       "Machine": "Assembler",
       "BatchTime": "3",
       "Tier": "1-4",
+      "Alternate": true,
       "Parts": [
         {
           "Part": "Solid Biofuel",
@@ -5554,6 +5542,28 @@
       ]
     },
     {
+      "Name": "Diluted Bitumen",
+      "Machine": "Refinery",
+      "BatchTime": "6",
+      "Tier": "0-0",
+      "Alternate": true,
+      "Parts": [
+        {
+          "Part": "Asphalt",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Water",
+          "Amount": "-6"
+        },
+        {
+          "Part": "Heavy Oil Residue",
+          "Amount": "1"
+        }
+      ],
+      "todo": "tier"
+    },
+    {
       "Name": "Direct Steel",
       "Machine": "Flexible Blast Furnace",
       "BatchTime": "12",
@@ -5985,7 +5995,7 @@
     {
       "Name": "Fabric",
       "Machine": "Assembler",
-      "BatchTime": "4",
+      "BatchTime": "12",
       "Tier": "2-1",
       "Parts": [
         {
@@ -5994,11 +6004,11 @@
         },
         {
           "Part": "Biomass",
-          "Amount": "-5"
+          "Amount": "-4"
         },
         {
           "Part": "Fabric",
-          "Amount": "1"
+          "Amount": "2"
         }
       ]
     },
@@ -6061,28 +6071,7 @@
       ]
     },
     {
-      "Name": "Filtered Algal Mass",
-      "Machine": "Filtrator",
-      "BatchTime": "6",
-      "Tier": "2-1",
-      "Parts": [
-        {
-          "Part": "Algal Mass",
-          "Amount": "-3"
-        },
-        {
-          "Part": "Biomass",
-          "Amount": "6"
-        },
-        {
-          "Part": "Water",
-          "Amount": "0.5"
-        }
-      ],
-      "Credit": "asmo"
-    },
-    {
-      "Name": "Filtered Flue Gas",
+      "Name": "Flue Gas Filtered",
       "Machine": "Filtrator",
       "BatchTime": "6",
       "Tier": "4-1",
@@ -6109,97 +6098,6 @@
         }
       ],
       "Credit": "asmo"
-    },
-    {
-      "Name": "Filtered Tailings Slurry",
-      "Machine": "Filtrator",
-      "BatchTime": "6",
-      "Tier": "2-1",
-      "Parts": [
-        {
-          "Part": "Tailings Slurry",
-          "Amount": "-8"
-        },
-        {
-          "Part": "Crushed Iron",
-          "Amount": "4"
-        },
-        {
-          "Part": "Crushed Copper",
-          "Amount": "4"
-        },
-        {
-          "Part": "Crushed Tin",
-          "Amount": "2"
-        },
-        {
-          "Part": "Cold Slag",
-          "Amount": "2"
-        },
-        {
-          "Part": "Flue Gas",
-          "Amount": "3"
-        }
-      ],
-      "Credit": "asmo"
-    },
-    {
-      "Name": "Filtered Wastewater",
-      "Machine": "Filtrator",
-      "BatchTime": "6",
-      "Tier": "4-1",
-      "Parts": [
-        {
-          "Part": "Wastewater",
-          "Amount": "-6"
-        },
-        {
-          "Part": "Water",
-          "Amount": "4"
-        },
-        {
-          "Part": "Crushed Zinc",
-          "Amount": "3"
-        },
-        {
-          "Part": "Crushed Caterium",
-          "Amount": "3"
-        },
-        {
-          "Part": "Crushed Nickel",
-          "Amount": "3"
-        },
-        {
-          "Part": "Crushed Cobalt",
-          "Amount": "3"
-        }
-      ],
-      "Credit": "asmo"
-    },
-    {
-      "Name": "Flexible Framework",
-      "Machine": "Manufacturer",
-      "BatchTime": "16",
-      "Alternate": true,
-      "Tier": "6-1",
-      "Parts": [
-        {
-          "Part": "Modular Frame",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Steel Beam",
-          "Amount": "-6"
-        },
-        {
-          "Part": "Rubber",
-          "Amount": "-8"
-        },
-        {
-          "Part": "Versatile Framework",
-          "Amount": "2"
-        }
-      ]
     },
     {
       "Name": "Flue Gas Stack",
@@ -6798,6 +6696,28 @@
         }
       ],
       "Credit": "asmo"
+    },
+    {
+      "Name": "Leaded Fuel",
+      "Machine": "Refinery",
+      "BatchTime": "12",
+      "Tier": "0-0",
+      "Alternate": true,
+      "Parts": [
+        {
+          "Part": "Heavy Oil Residue",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Crushed Lead",
+          "Amount": "1"
+        },
+        {
+          "Part": "Fuel",
+          "Amount": "5"
+        }
+      ],
+      "todo": "tier"
     },
     {
       "Name": "Leaves Biomass Burner",
@@ -8978,6 +8898,39 @@
       ]
     },
     {
+      "Name": "Tailings Slurry Filtered",
+      "Machine": "Filtrator",
+      "BatchTime": "6",
+      "Tier": "2-1",
+      "Parts": [
+        {
+          "Part": "Tailings Slurry",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Crushed Iron",
+          "Amount": "4"
+        },
+        {
+          "Part": "Crushed Copper",
+          "Amount": "4"
+        },
+        {
+          "Part": "Crushed Tin",
+          "Amount": "2"
+        },
+        {
+          "Part": "Cold Slag",
+          "Amount": "2"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Thermal Propulsion Rocket",
       "Machine": "Manufacturer",
       "BatchTime": "120",
@@ -10044,6 +9997,39 @@
         {
           "Part": "Wastewater",
           "Amount": "8"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Wastewater Filtered",
+      "Machine": "Filtrator",
+      "BatchTime": "6",
+      "Tier": "4-1",
+      "Parts": [
+        {
+          "Part": "Wastewater",
+          "Amount": "-6"
+        },
+        {
+          "Part": "Water",
+          "Amount": "4"
+        },
+        {
+          "Part": "Crushed Zinc",
+          "Amount": "3"
+        },
+        {
+          "Part": "Crushed Caterium",
+          "Amount": "3"
+        },
+        {
+          "Part": "Crushed Nickel",
+          "Amount": "3"
+        },
+        {
+          "Part": "Crushed Cobalt",
+          "Amount": "3"
         }
       ],
       "Credit": "asmo"
