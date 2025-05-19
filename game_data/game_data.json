@@ -209,7 +209,7 @@
     },
     {
       "Name": "Chemical Reactor",
-      "Tier": "4-1",
+      "Tier": "5-0",
       "AveragePower": "-50",
       "OverclockPowerExponent": "1321929/1000000",
       "MaxProductionShards": 4,
@@ -376,7 +376,8 @@
           "Part": "Wire",
           "Amount": "25"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Flue Gas Stack",
@@ -1438,21 +1439,6 @@
       ]
     },
     {
-      "Name": "Resource Well Extractor",
-      "Tier": "8-3",
-      "AveragePower": "0",
-      "Cost": [],
-      "Placeholder": true
-    },
-    {
-      "Name": "Resource Well Pressurizer",
-      "Tier": "8-3",
-      "AveragePower": "-150",
-      "OverclockPowerExponent": "1321929/1000000",
-      "Cost": [],
-      "Placeholder": true
-    },
-    {
       "Name": "Seed Extractor",
       "Tier": "0-0",
       "AveragePower": "-25",
@@ -1617,7 +1603,7 @@
       "Tier": "0-2",
       "AveragePower": "-15",
       "Cost": [],
-      "Placeholder": true
+      "todo": "placeholder"
     },
     {
       "Name": "Wet Washer",
@@ -1696,18 +1682,8 @@
       ],
       "Capacities": [
         {
-          "Name": "Impure",
-          "PartsRatio": "1/2",
-          "Color": 13775920
-        },
-        {
           "Name": "Normal",
           "Default": true
-        },
-        {
-          "Name": "Pure",
-          "PartsRatio": "2",
-          "Color": 8433977
         }
       ]
     },
@@ -1909,28 +1885,6 @@
       ]
     },
     {
-      "Name": "Resource Well Extractor",
-      "ShowPpm": true,
-      "DefaultMax": "60",
-      "Capacities": [
-        {
-          "Name": "Impure",
-          "PartsRatio": "1/2",
-          "Color": 13775920
-        },
-        {
-          "Name": "Normal",
-          "Default": true
-        },
-        {
-          "Name": "Pure",
-          "PartsRatio": "2",
-          "Color": 8433977
-        }
-      ],
-      "Placeholder": true
-    },
-    {
       "Name": "Space Elevator",
       "ShowPpm": false,
       "DefaultMax": "1"
@@ -1985,11 +1939,6 @@
   ],
   "Parts": [
     {
-      "Name": "AI Expansion Server",
-      "Tier": "9-2",
-      "SinkPoints": 597652
-    },
-    {
       "Name": "AI Limiter",
       "Tier": "5-5",
       "SinkPoints": 920
@@ -2020,11 +1969,6 @@
       "Name": "Alien DNA Capsule",
       "Tier": "0-3",
       "SinkPoints": 0
-    },
-    {
-      "Name": "Alien Power Matrix",
-      "Tier": "9-2",
-      "SinkPoints": 210
     },
     {
       "Name": "Alien Protein",
@@ -2063,11 +2007,6 @@
       "SinkPoints": 10
     },
     {
-      "Name": "Assembly Director System",
-      "Tier": "7-5",
-      "SinkPoints": 500176
-    },
-    {
       "Name": "Aurovite Ore",
       "Tier": "0-0",
       "SinkPoints": 1,
@@ -2077,11 +2016,6 @@
       "Name": "Automated Wiring",
       "Tier": "4-3",
       "SinkPoints": 1440
-    },
-    {
-      "Name": "Ballistic Warp Drive",
-      "Tier": "9-4",
-      "SinkPoints": 2895334
     },
     {
       "Name": "Banana Seed",
@@ -2097,7 +2031,7 @@
     },
     {
       "Name": "Battery",
-      "Tier": "7-5",
+      "Tier": "6-3",
       "SinkPoints": 465
     },
     {
@@ -2122,11 +2056,6 @@
       "Tier": "5-3",
       "SinkPoints": 4800,
       "Credit": "asmo"
-    },
-    {
-      "Name": "Biochemical Sculptor",
-      "Tier": "9-1",
-      "SinkPoints": 301778
     },
     {
       "Name": "Biomass",
@@ -2306,7 +2235,8 @@
     {
       "Name": "Compacted Coal",
       "Tier": "5-4",
-      "SinkPoints": 28
+      "SinkPoints": 28,
+      "todo": "check"
     },
     {
       "Name": "Computer",
@@ -2322,16 +2252,12 @@
       "Name": "Coolant",
       "Tier": "5-4",
       "SinkPoints": 0,
+      "todo": "check",
       "Credit": "asmo"
     },
     {
-      "Name": "Cooling System",
-      "Tier": "8-3",
-      "SinkPoints": 12006
-    },
-    {
       "Name": "Copper Busbar",
-      "Tier": "0-0",
+      "Tier": "0-1",
       "SinkPoints": 10,
       "Credit": "asmo"
     },
@@ -2346,13 +2272,8 @@
       "SinkPoints": 6
     },
     {
-      "Name": "Copper Powder",
-      "Tier": "8-5",
-      "SinkPoints": 72
-    },
-    {
       "Name": "Copper Rod",
-      "Tier": "0-0",
+      "Tier": "0-1",
       "SinkPoints": 10,
       "Credit": "asmo"
     },
@@ -2474,16 +2395,6 @@
       "SinkPoints": 3072
     },
     {
-      "Name": "Dark Matter Crystal",
-      "Tier": "9-2",
-      "SinkPoints": 1780
-    },
-    {
-      "Name": "Dark Matter Residue",
-      "Tier": "9-2",
-      "SinkPoints": 0
-    },
-    {
       "Name": "Diamonds",
       "Tier": "9-1",
       "SinkPoints": 240
@@ -2495,20 +2406,10 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Dissolved Silica",
-      "Tier": "8-5",
-      "SinkPoints": 0
-    },
-    {
       "Name": "EP Control Rod",
       "Tier": "6-3",
       "SinkPoints": 2500,
       "Credit": "asmo"
-    },
-    {
-      "Name": "Electromagnetic Control Rod",
-      "Tier": "8-2",
-      "SinkPoints": 2560
     },
     {
       "Name": "Empty Barrel",
@@ -2534,22 +2435,13 @@
     {
       "Name": "Empty Heat Tank",
       "Tier": "5-4",
-      "SinkPoints": 170
+      "SinkPoints": 170,
+      "todo": "check"
     },
     {
       "Name": "Encased Industrial Beam",
-      "Tier": "4-3",
+      "Tier": "4-1",
       "SinkPoints": 528
-    },
-    {
-      "Name": "Encased Plutonium Cell",
-      "Tier": "8-5",
-      "SinkPoints": 0
-    },
-    {
-      "Name": "Encased Uranium Cell",
-      "Tier": "8-2",
-      "SinkPoints": 147
     },
     {
       "Name": "Energized Slug Slime",
@@ -2559,12 +2451,7 @@
     },
     {
       "Name": "Ethylene Gas",
-      "Tier": "3-0",
-      "SinkPoints": 0
-    },
-    {
-      "Name": "Excited Photonic Matter",
-      "Tier": "9-2",
+      "Tier": "5-0",
       "SinkPoints": 0
     },
     {
@@ -2624,26 +2511,6 @@
       "SinkPoints": 40
     },
     {
-      "Name": "Ficsite Ingot",
-      "Tier": "9-1",
-      "SinkPoints": 1936
-    },
-    {
-      "Name": "Ficsite Trigon",
-      "Tier": "9-1",
-      "SinkPoints": 1291
-    },
-    {
-      "Name": "Ficsonium",
-      "Tier": "9-5",
-      "SinkPoints": 0
-    },
-    {
-      "Name": "Ficsonium Fuel Rod",
-      "Tier": "9-5",
-      "SinkPoints": 0
-    },
-    {
       "Name": "Flue Gas",
       "Tier": "2-5",
       "SinkPoints": 0
@@ -2652,11 +2519,6 @@
       "Name": "Fuel",
       "Tier": "5-2",
       "SinkPoints": 0
-    },
-    {
-      "Name": "Fused Modular Frame",
-      "Tier": "8-3",
-      "SinkPoints": 62840
     },
     {
       "Name": "Gas Filter",
@@ -2678,11 +2540,6 @@
       "Name": "Hatcher Remains",
       "Tier": "0-0",
       "SinkPoints": 0
-    },
-    {
-      "Name": "Heat Sink",
-      "Tier": "8-3",
-      "SinkPoints": 2804
     },
     {
       "Name": "Heavy Modular Frame",
@@ -2717,13 +2574,8 @@
     },
     {
       "Name": "Hydrogen Gas",
-      "Tier": "3-0",
+      "Tier": "5-1",
       "SinkPoints": 0
-    },
-    {
-      "Name": "Iodine-Infused Filter",
-      "Tier": "7-4",
-      "SinkPoints": 2274
     },
     {
       "Name": "Ionized Fuel",
@@ -2781,19 +2633,19 @@
     },
     {
       "Name": "Lead Ingot",
-      "Tier": "0-0",
+      "Tier": "5-2",
       "SinkPoints": 5,
       "Credit": "asmo"
     },
     {
       "Name": "Lead Plate",
-      "Tier": "0-0",
+      "Tier": "5-2",
       "SinkPoints": 0,
       "Credit": "asmo"
     },
     {
       "Name": "Lead Sheet",
-      "Tier": "0-0",
+      "Tier": "5-2",
       "SinkPoints": 20,
       "Credit": "asmo"
     },
@@ -2824,11 +2676,6 @@
       "Tier": "6-3",
       "SinkPoints": 10,
       "Credit": "asmo"
-    },
-    {
-      "Name": "Magnetic Field Generator",
-      "Tier": "8-2",
-      "SinkPoints": 11000
     },
     {
       "Name": "Magnitar Billet",
@@ -2981,11 +2828,6 @@
       "SinkPoints": 0
     },
     {
-      "Name": "Neural-Quantum Processor",
-      "Tier": "9-2",
-      "SinkPoints": 248034
-    },
-    {
       "Name": "Nitric Acid",
       "Tier": "5-4",
       "SinkPoints": 0
@@ -3001,16 +2843,6 @@
       "SinkPoints": 152
     },
     {
-      "Name": "Non-Fissile Uranium",
-      "Tier": "8-5",
-      "SinkPoints": 0
-    },
-    {
-      "Name": "Nuclear Pasta",
-      "Tier": "8-5",
-      "SinkPoints": 538976
-    },
-    {
       "Name": "Nuke Nobelisk",
       "Tier": "8-2",
       "SinkPoints": 19600
@@ -3023,8 +2855,9 @@
     },
     {
       "Name": "Oxyhydrogen",
-      "Tier": "1-0",
-      "SinkPoints": 0
+      "Tier": "3-0",
+      "SinkPoints": 0,
+      "Credit": "asmo"
     },
     {
       "Name": "Packaged Air",
@@ -3116,7 +2949,8 @@
     {
       "Name": "Packaged Hydrogen",
       "Tier": "5-4",
-      "SinkPoints": 2
+      "SinkPoints": 20,
+      "todo": "check"
     },
     {
       "Name": "Packaged Ionized Fuel",
@@ -3261,7 +3095,7 @@
     },
     {
       "Name": "Packaged Nitrogen Gas",
-      "Tier": "8-3",
+      "Tier": "5-4",
       "SinkPoints": 312
     },
     {
@@ -3319,7 +3153,7 @@
     },
     {
       "Name": "Packaged Sulfuric Acid",
-      "Tier": "7-5",
+      "Tier": "5-4",
       "SinkPoints": 152
     },
     {
@@ -3358,37 +3192,22 @@
     },
     {
       "Name": "Petroleum Coke",
-      "Tier": "5-2",
+      "Tier": "5-0",
       "SinkPoints": 20
     },
     {
       "Name": "Plastic",
-      "Tier": "5-2",
+      "Tier": "5-0",
       "SinkPoints": 75
     },
     {
-      "Name": "Plutonium Fuel Rod",
-      "Tier": "8-5",
-      "SinkPoints": 153184
-    },
-    {
-      "Name": "Plutonium Pellet",
-      "Tier": "8-5",
-      "SinkPoints": 0
-    },
-    {
-      "Name": "Plutonium Waste",
-      "Tier": "8-5",
-      "SinkPoints": 0
-    },
-    {
       "Name": "Polymer Resin",
-      "Tier": "5-2",
+      "Tier": "5-0",
       "SinkPoints": 12
     },
     {
       "Name": "Portable Miner",
-      "Tier": "3-3",
+      "Tier": "0-0",
       "SinkPoints": 56
     },
     {
@@ -3407,11 +3226,6 @@
       "Name": "Power Shard",
       "Tier": "0-3",
       "SinkPoints": 0
-    },
-    {
-      "Name": "Pressure Conversion Cube",
-      "Tier": "8-5",
-      "SinkPoints": 255088
     },
     {
       "Name": "Pulse Nobelisk",
@@ -3443,11 +3257,6 @@
       "Name": "Quickwire",
       "Tier": "5-5",
       "SinkPoints": 17
-    },
-    {
-      "Name": "Radio Control Unit",
-      "Tier": "7-5",
-      "SinkPoints": 32352
     },
     {
       "Name": "Raw Quartz",
@@ -3513,7 +3322,7 @@
     },
     {
       "Name": "Sand",
-      "Tier": "0-1",
+      "Tier": "0-0",
       "SinkPoints": 2
     },
     {
@@ -3531,11 +3340,6 @@
       "Tier": "4-4",
       "SinkPoints": 5,
       "Credit": "asmo"
-    },
-    {
-      "Name": "Singularity Cell",
-      "Tier": "9-4",
-      "SinkPoints": 114675
     },
     {
       "Name": "Siterite Ore",
@@ -3621,7 +3425,7 @@
     },
     {
       "Name": "Steam",
-      "Tier": "0-1",
+      "Tier": "2-0",
       "SinkPoints": 2
     },
     {
@@ -3663,7 +3467,7 @@
     },
     {
       "Name": "Sulfur",
-      "Tier": "0-5",
+      "Tier": "3-0",
       "SinkPoints": 11
     },
     {
@@ -3674,7 +3478,7 @@
     },
     {
       "Name": "Sulfuric Acid",
-      "Tier": "7-5",
+      "Tier": "5-4",
       "SinkPoints": 0
     },
     {
@@ -3682,16 +3486,6 @@
       "Tier": "5-4",
       "SinkPoints": 0,
       "Credit": "asmo"
-    },
-    {
-      "Name": "Supercomputer",
-      "Tier": "7-5",
-      "SinkPoints": 97352
-    },
-    {
-      "Name": "Superposition Oscillator",
-      "Tier": "9-2",
-      "SinkPoints": 37292
     },
     {
       "Name": "Sweet Fireworks",
@@ -3703,16 +3497,6 @@
       "Tier": "2-5",
       "SinkPoints": 0,
       "Credit": "asmo"
-    },
-    {
-      "Name": "Thermal Propulsion Rocket",
-      "Tier": "8-4",
-      "SinkPoints": 728508
-    },
-    {
-      "Name": "Time Crystal",
-      "Tier": "9-1",
-      "SinkPoints": 960
     },
     {
       "Name": "Tin Ingot",
@@ -3763,11 +3547,6 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Turbo Motor",
-      "Tier": "8-4",
-      "SinkPoints": 240496
-    },
-    {
       "Name": "Turbo Rifle Ammo",
       "Tier": "7-1",
       "SinkPoints": 120
@@ -3775,21 +3554,6 @@
     {
       "Name": "Turbofuel",
       "Tier": "5-4",
-      "SinkPoints": 0
-    },
-    {
-      "Name": "Uranium",
-      "Tier": "8-2",
-      "SinkPoints": 35
-    },
-    {
-      "Name": "Uranium Fuel Rod",
-      "Tier": "8-2",
-      "SinkPoints": 43468
-    },
-    {
-      "Name": "Uranium Waste",
-      "Tier": "8-2",
       "SinkPoints": 0
     },
     {
@@ -3938,47 +3702,6 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Alclad Aluminum Sheet",
-      "Machine": "Assembler",
-      "BatchTime": "6",
-      "Tier": "7-1",
-      "Parts": [
-        {
-          "Part": "Aluminum Ingot",
-          "Amount": "-3"
-        },
-        {
-          "Part": "Copper Ingot",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Alclad Aluminum Sheet",
-          "Amount": "3"
-        }
-      ]
-    },
-    {
-      "Name": "Alclad Casing",
-      "Machine": "Assembler",
-      "BatchTime": "8",
-      "Alternate": true,
-      "Tier": "7-1",
-      "Parts": [
-        {
-          "Part": "Aluminum Ingot",
-          "Amount": "-20"
-        },
-        {
-          "Part": "Copper Ingot",
-          "Amount": "-10"
-        },
-        {
-          "Part": "Aluminum Casing",
-          "Amount": "15"
-        }
-      ]
-    },
-    {
       "Name": "Algal Mass",
       "Machine": "Algal Mass Extractor",
       "BatchTime": "60",
@@ -4050,66 +3773,6 @@
       ]
     },
     {
-      "Name": "Aluminum Casing",
-      "Machine": "Constructor",
-      "BatchTime": "2",
-      "Tier": "7-1",
-      "Parts": [
-        {
-          "Part": "Aluminum Ingot",
-          "Amount": "-3"
-        },
-        {
-          "Part": "Aluminum Casing",
-          "Amount": "2"
-        }
-      ]
-    },
-    {
-      "Name": "Aluminum Ingot",
-      "Machine": "Foundry",
-      "BatchTime": "4",
-      "Tier": "7-1",
-      "Parts": [
-        {
-          "Part": "Aluminum Scrap",
-          "Amount": "-6"
-        },
-        {
-          "Part": "Silica",
-          "Amount": "-5"
-        },
-        {
-          "Part": "Aluminum Ingot",
-          "Amount": "4"
-        }
-      ]
-    },
-    {
-      "Name": "Aluminum Scrap",
-      "Machine": "Refinery",
-      "BatchTime": "1",
-      "Tier": "7-1",
-      "Parts": [
-        {
-          "Part": "Alumina Solution",
-          "Amount": "-4"
-        },
-        {
-          "Part": "Coal",
-          "Amount": "-2"
-        },
-        {
-          "Part": "Aluminum Scrap",
-          "Amount": "6"
-        },
-        {
-          "Part": "Water",
-          "Amount": "2"
-        }
-      ]
-    },
-    {
       "Name": "Asphalt Concrete",
       "Machine": "Assembler",
       "BatchTime": "16",
@@ -4125,26 +3788,6 @@
         }
       ],
       "Credit": "asmo"
-    },
-    {
-      "Name": "Assembly Director System",
-      "Machine": "Assembler",
-      "BatchTime": "80",
-      "Tier": "7-5",
-      "Parts": [
-        {
-          "Part": "Adaptive Control Unit",
-          "Amount": "-2"
-        },
-        {
-          "Part": "Supercomputer",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Assembly Director System",
-          "Amount": "1"
-        }
-      ]
     },
     {
       "Name": "Aurovite Ore",
@@ -4182,7 +3825,8 @@
           "Part": "Automated Wiring",
           "Amount": "4"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Automated Wiring",
@@ -4206,35 +3850,6 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Ballistic Warp Drive",
-      "Machine": "Manufacturer",
-      "BatchTime": "60",
-      "Tier": "9-4",
-      "Parts": [
-        {
-          "Part": "Thermal Propulsion Rocket",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Singularity Cell",
-          "Amount": "-5"
-        },
-        {
-          "Part": "Superposition Oscillator",
-          "Amount": "-2"
-        },
-        {
-          "Part": "Dark Matter Crystal",
-          "Amount": "-40"
-        },
-        {
-          "Part": "Ballistic Warp Drive",
-          "Amount": "1"
-        }
-      ],
-      "todo": "verify"
-    },
-    {
       "Name": "Bar Magnet",
       "Machine": "Refinery",
       "BatchTime": "120",
@@ -4255,6 +3870,31 @@
         {
           "Part": "Spent Slug Slime",
           "Amount": "12"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Battery",
+      "Machine": "Chemical Reactor",
+      "BatchTime": "12",
+      "Tier": "6-3",
+      "Parts": [
+        {
+          "Part": "Molten Zinc",
+          "Amount": "-2.4"
+        },
+        {
+          "Part": "Molten Nickel",
+          "Amount": "-3"
+        },
+        {
+          "Part": "Empty Canister",
+          "Amount": "-4"
+        },
+        {
+          "Part": "Battery",
+          "Amount": "5"
         }
       ],
       "Credit": "asmo"
@@ -4367,6 +4007,356 @@
       ]
     },
     {
+      "Name": "Biomass Boiler Mk.1 (Biomass)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Biomass",
+          "Amount": "-20"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.1 (Compact Biomass)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Compact Biomass",
+          "Amount": "-6"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.1 (Fabric)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Fabric",
+          "Amount": "-240"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "30"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.1 (Leaves)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Leaves",
+          "Amount": "-240"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "30"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.1 (Mycelia)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Mycelia",
+          "Amount": "-80"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "10"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.1 (Solid Biofuel)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Solid Biofuel",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "16"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.1 (Wood)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Wood",
+          "Amount": "-36"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "22.5"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.2 (Biomass)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-22.5"
+        },
+        {
+          "Part": "Biomass",
+          "Amount": "-20"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "45"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.2 (Compact Biomass)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-22.5"
+        },
+        {
+          "Part": "Compact Biomass",
+          "Amount": "-6"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "45"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.2 (Fabric)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-22.5"
+        },
+        {
+          "Part": "Fabric",
+          "Amount": "-240"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "45"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "30"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.2 (Leaves)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-22.5"
+        },
+        {
+          "Part": "Leaves",
+          "Amount": "-240"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "45"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "30"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.2 (Mycelia)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-22.5"
+        },
+        {
+          "Part": "Mycelia",
+          "Amount": "-80"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "45"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "10"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.2 (Solid Biofuel)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-22.5"
+        },
+        {
+          "Part": "Solid Biofuel",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "45"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "16"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Biomass Boiler Mk.2 (Wood)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-22.5"
+        },
+        {
+          "Part": "Wood",
+          "Amount": "-36"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "45"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "22.5"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Biomass Burner",
       "Machine": "Biomass Burner",
       "BatchTime": "6",
@@ -4396,7 +4386,8 @@
           "Part": "Black Powder",
           "Amount": "2"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Blue FICSMAS Ornament",
@@ -4614,6 +4605,23 @@
       "Credit": "asmo"
     },
     {
+      "Name": "Carbon Powder Miner Crusher",
+      "Machine": "Modular Miner (Crusher)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Carbon Powder",
+          "Amount": "1"
+        },
+        {
+          "Part": "Carbon Powder",
+          "Amount": "1/3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Cast Brass Ingot",
       "Machine": "Reformer",
       "BatchTime": "12",
@@ -4634,6 +4642,56 @@
         {
           "Part": "Steam",
           "Amount": "3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Cast Caterium Ingot",
+      "Machine": "Reformer",
+      "BatchTime": "15",
+      "Tier": "6-2",
+      "Parts": [
+        {
+          "Part": "Molten Caterium",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Water",
+          "Amount": "-12"
+        },
+        {
+          "Part": "Caterium Ingot",
+          "Amount": "32"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "10"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Cast Cobalt Ingot",
+      "Machine": "Reformer",
+      "BatchTime": "4",
+      "Tier": "6-2",
+      "Parts": [
+        {
+          "Part": "Molten Cobalt",
+          "Amount": "-6"
+        },
+        {
+          "Part": "Water",
+          "Amount": "-4"
+        },
+        {
+          "Part": "Cobalt Ingot",
+          "Amount": "16"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "4"
         }
       ],
       "Credit": "asmo"
@@ -4688,6 +4746,56 @@
       ]
     },
     {
+      "Name": "Cast Lead Ingot",
+      "Machine": "Reformer",
+      "BatchTime": "6",
+      "Tier": "6-2",
+      "Parts": [
+        {
+          "Part": "Molten Lead",
+          "Amount": "-4"
+        },
+        {
+          "Part": "Water",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Lead Ingot",
+          "Amount": "12"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "6"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Cast Magnitar Billet",
+      "Machine": "Reformer",
+      "BatchTime": "8",
+      "Tier": "6-3",
+      "Parts": [
+        {
+          "Part": "Molten Magnitar",
+          "Amount": "-6"
+        },
+        {
+          "Part": "Water",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Magnitar Billet",
+          "Amount": "18"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "4"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Cast Screw",
       "Machine": "Smelter",
       "BatchTime": "12",
@@ -4701,6 +4809,68 @@
         {
           "Part": "Screw",
           "Amount": "4"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Cast Solder",
+      "Machine": "Reformer",
+      "BatchTime": "20",
+      "Tier": "5-2",
+      "Parts": [
+        {
+          "Part": "Solder",
+          "Amount": "-6"
+        },
+        {
+          "Part": "Air",
+          "Amount": "-10"
+        },
+        {
+          "Part": "Wire",
+          "Amount": "-30"
+        },
+        {
+          "Part": "Solder Wire",
+          "Amount": "30"
+        },
+        {
+          "Part": "Solder Rod",
+          "Amount": "5"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Cast Steel Ingot",
+      "Machine": "Reformer",
+      "BatchTime": "16",
+      "Tier": "3-3",
+      "Parts": [
+        {
+          "Part": "Molten Steel",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Air",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "-10"
+        },
+        {
+          "Part": "Steel Ingot",
+          "Amount": "24"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "8"
+        },
+        {
+          "Part": "Cold Slag",
+          "Amount": "10"
         }
       ],
       "Credit": "asmo"
@@ -4782,50 +4952,29 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Caterium Circuit Board",
-      "Machine": "Assembler",
-      "BatchTime": "48",
-      "Alternate": true,
-      "Tier": "5-5",
+      "Name": "Cast Zinc Ingot",
+      "Machine": "Reformer",
+      "BatchTime": "6",
+      "Tier": "6-2",
       "Parts": [
         {
-          "Part": "Plastic",
-          "Amount": "-10"
-        },
-        {
-          "Part": "Quickwire",
-          "Amount": "-30"
-        },
-        {
-          "Part": "Circuit Board",
-          "Amount": "7"
-        }
-      ]
-    },
-    {
-      "Name": "Caterium Computer",
-      "Machine": "Manufacturer",
-      "BatchTime": "16",
-      "Alternate": true,
-      "Tier": "6-1",
-      "Parts": [
-        {
-          "Part": "Circuit Board",
-          "Amount": "-4"
-        },
-        {
-          "Part": "Quickwire",
-          "Amount": "-14"
-        },
-        {
-          "Part": "Rubber",
+          "Part": "Molten Zinc",
           "Amount": "-6"
         },
         {
-          "Part": "Computer",
-          "Amount": "1"
+          "Part": "Water",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Zinc Ingot",
+          "Amount": "9"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "3"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Caterium Heatsink",
@@ -4861,6 +5010,23 @@
         {
           "Part": "Caterium Ingot",
           "Amount": "4"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Caterium Ingot Miner Smelter",
+      "Machine": "Modular Miner (Smelter)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Caterium Ingot",
+          "Amount": "1"
+        },
+        {
+          "Part": "Tailings Slurry",
+          "Amount": "1/3"
         }
       ],
       "Credit": "asmo"
@@ -4917,70 +5083,25 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Charcoal",
-      "Machine": "Constructor",
-      "BatchTime": "4",
-      "Alternate": true,
-      "Tier": "3-1",
-      "Parts": [
-        {
-          "Part": "Wood",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Coal",
-          "Amount": "10"
-        }
-      ]
-    },
-    {
       "Name": "Circuit Board",
       "Machine": "Assembler",
-      "BatchTime": "8",
+      "BatchTime": "24",
       "Tier": "5-2",
       "Parts": [
         {
-          "Part": "Copper Sheet",
-          "Amount": "-2"
-        },
-        {
           "Part": "Plastic",
-          "Amount": "-4"
+          "Amount": "-15"
         },
         {
-          "Part": "Circuit Board",
-          "Amount": "1"
-        }
-      ]
-    },
-    {
-      "Name": "Classic Battery",
-      "Machine": "Manufacturer",
-      "BatchTime": "8",
-      "Alternate": true,
-      "Tier": "7-5",
-      "Parts": [
-        {
-          "Part": "Sulfur",
-          "Amount": "-6"
-        },
-        {
-          "Part": "Alclad Aluminum Sheet",
-          "Amount": "-7"
-        },
-        {
-          "Part": "Plastic",
+          "Part": "Solder Wire",
           "Amount": "-8"
         },
         {
-          "Part": "Wire",
-          "Amount": "-12"
-        },
-        {
-          "Part": "Battery",
+          "Part": "Circuit Board",
           "Amount": "4"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Cluster Nobelisk",
@@ -5016,6 +5137,206 @@
       "Credit": "asmo"
     },
     {
+      "Name": "Coal Boiler Mk.1 (Carbon Powder)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Carbon Powder",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Coal Boiler Mk.1 (Coal)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Coal",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Coal Boiler Mk.1 (Petroleum Coke)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Petroleum Coke",
+          "Amount": "-25"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Coal Boiler Mk.1 (Sulfur Powder)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Sulfur Powder",
+          "Amount": "-30"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "21"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Coal Boiler Mk.2 (Carbon Powder)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-22.5"
+        },
+        {
+          "Part": "Carbon Powder",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "45"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Coal Boiler Mk.2 (Coal)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-22.5"
+        },
+        {
+          "Part": "Coal",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "45"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Coal Boiler Mk.2 (Petroleum Coke)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-22.5"
+        },
+        {
+          "Part": "Petroleum Coke",
+          "Amount": "-25"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "45"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Coal Boiler Mk.2 (Sulfur Powder)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-22.5"
+        },
+        {
+          "Part": "Sulfur Powder",
+          "Amount": "-30"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "45"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "21"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Coarse Sand",
       "Machine": "Crusher",
       "BatchTime": "4",
@@ -5033,31 +5354,10 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Coated Iron Canister",
-      "Machine": "Assembler",
-      "BatchTime": "4",
-      "Alternate": true,
-      "Tier": "5-4",
-      "Parts": [
-        {
-          "Part": "Iron Plate",
-          "Amount": "-2"
-        },
-        {
-          "Part": "Copper Sheet",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Empty Canister",
-          "Amount": "4"
-        }
-      ]
-    },
-    {
       "Name": "Cobalt Ingot",
       "Machine": "Foundry",
       "BatchTime": "10",
-      "Tier": "0-0",
+      "Tier": "2-2",
       "Parts": [
         {
           "Part": "Crushed Cobalt",
@@ -5065,7 +5365,11 @@
         },
         {
           "Part": "Magnesium Granules",
-          "Amount": "3"
+          "Amount": "-3"
+        },
+        {
+          "Part": "Cobalt Ingot",
+          "Amount": "5"
         }
       ],
       "Credit": "asmo"
@@ -5107,6 +5411,7 @@
           "Amount": "3"
         }
       ],
+      "todo": "check-alternate",
       "Credit": "asmo"
     },
     {
@@ -5128,31 +5433,33 @@
           "Part": "Compacted Coal",
           "Amount": "5"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Computer",
       "Machine": "Manufacturer",
-      "BatchTime": "24",
-      "Tier": "6-1",
+      "BatchTime": "48",
+      "Tier": "5-2",
       "Parts": [
         {
           "Part": "Circuit Board",
-          "Amount": "-4"
+          "Amount": "-12"
         },
         {
-          "Part": "Cable",
+          "Part": "Solder Rod",
           "Amount": "-8"
         },
         {
           "Part": "Plastic",
-          "Amount": "-16"
+          "Amount": "-30"
         },
         {
           "Part": "Computer",
-          "Amount": "1"
+          "Amount": "2"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Concrete",
@@ -5227,20 +5534,21 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Copper Powder",
-      "Machine": "Constructor",
-      "BatchTime": "6",
-      "Tier": "8-5",
+      "Name": "Copper Ingot Miner Smelter",
+      "Machine": "Modular Miner (Smelter)",
+      "BatchTime": "60",
+      "Tier": "0-0",
       "Parts": [
         {
           "Part": "Copper Ingot",
-          "Amount": "-30"
+          "Amount": "1"
         },
         {
-          "Part": "Copper Powder",
-          "Amount": "5"
+          "Part": "Tailings Slurry",
+          "Amount": "1/3"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Copper Rod",
@@ -5297,7 +5605,7 @@
       "Name": "Crude Oil",
       "Machine": "Oil Extractor",
       "BatchTime": "1",
-      "Tier": "5-2",
+      "Tier": "5-0",
       "Parts": [
         {
           "Part": "Crude Oil",
@@ -5327,6 +5635,23 @@
       "Credit": "asmo"
     },
     {
+      "Name": "Crushed Aurovite Miner Crusher",
+      "Machine": "Modular Miner (Crusher)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Aurovite",
+          "Amount": "1"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "1/3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Crushed Callanite",
       "Machine": "Crusher",
       "BatchTime": "12",
@@ -5348,9 +5673,155 @@
       "Credit": "asmo"
     },
     {
+      "Name": "Crushed Callanite Miner Crusher",
+      "Machine": "Modular Miner (Crusher)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Callanite",
+          "Amount": "1"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "1/3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Crushed Caterium",
+      "Machine": "Sorter",
+      "BatchTime": "12",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Aurovite",
+          "Amount": "-24"
+        },
+        {
+          "Part": "Crushed Caterium",
+          "Amount": "16"
+        },
+        {
+          "Part": "Crushed Copper",
+          "Amount": "8"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "6"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Crushed Cobalt",
+      "Machine": "Sorter",
+      "BatchTime": "4",
+      "Tier": "6-0",
+      "Parts": [
+        {
+          "Part": "Crushed Montanion",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Crushed Cobalt",
+          "Amount": "6"
+        },
+        {
+          "Part": "Crushed Magnesium",
+          "Amount": "2"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "2"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Crushed Copper",
+      "Machine": "Sorter",
+      "BatchTime": "7.5",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Callanite",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Crushed Copper",
+          "Amount": "18"
+        },
+        {
+          "Part": "Crushed Magnesium",
+          "Amount": "10"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "5"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Crushed Copper (Aurovite)",
+      "Machine": "Sorter",
+      "BatchTime": "15",
+      "Tier": "6-0",
+      "Parts": [
+        {
+          "Part": "Crushed Aurovite",
+          "Amount": "-45"
+        },
+        {
+          "Part": "Water",
+          "Amount": "-20"
+        },
+        {
+          "Part": "Crushed Copper",
+          "Amount": "24"
+        },
+        {
+          "Part": "Crushed Caterium",
+          "Amount": "16"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "4"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Crushed Iron",
+      "Machine": "Sorter",
+      "BatchTime": "12",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Siterite",
+          "Amount": "-24"
+        },
+        {
+          "Part": "Crushed Iron",
+          "Amount": "18"
+        },
+        {
+          "Part": "Crushed Tin",
+          "Amount": "12"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "8"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Crushed Larrussite",
       "Machine": "Crusher",
-      "BatchTime": "8",
+      "BatchTime": "3",
       "Tier": "0-0",
       "Parts": [
         {
@@ -5364,6 +5835,23 @@
         {
           "Part": "Crushed Gangue",
           "Amount": "2"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Crushed Larrussite Miner Crusher",
+      "Machine": "Modular Miner (Crusher)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Larrussite",
+          "Amount": "1"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "1/3"
         }
       ],
       "Credit": "asmo"
@@ -5394,6 +5882,35 @@
       "Credit": "asmo"
     },
     {
+      "Name": "Crushed Magnesium",
+      "Machine": "Sorter",
+      "BatchTime": "4",
+      "Tier": "6-0",
+      "Parts": [
+        {
+          "Part": "Crushed Callanite",
+          "Amount": "-12"
+        },
+        {
+          "Part": "Water",
+          "Amount": "-6"
+        },
+        {
+          "Part": "Crushed Magnesium",
+          "Amount": "8"
+        },
+        {
+          "Part": "Crushed Copper",
+          "Amount": "2"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Crushed Montanion",
       "Machine": "Crusher",
       "BatchTime": "3",
@@ -5410,6 +5927,48 @@
         {
           "Part": "Sand",
           "Amount": "2"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Crushed Montanion Miner Crusher",
+      "Machine": "Modular Miner (Crusher)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Montanion",
+          "Amount": "1"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "1/3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Crushed Nickel",
+      "Machine": "Sorter",
+      "BatchTime": "3",
+      "Tier": "6-1",
+      "Parts": [
+        {
+          "Part": "Crushed Callanite",
+          "Amount": "-12"
+        },
+        {
+          "Part": "Caustic Soda",
+          "Amount": "-3"
+        },
+        {
+          "Part": "Crushed Nickel",
+          "Amount": "6"
+        },
+        {
+          "Part": "Crushed Magnesium",
+          "Amount": "4"
         }
       ],
       "Credit": "asmo"
@@ -5457,6 +6016,77 @@
       "Credit": "asmo"
     },
     {
+      "Name": "Crushed Siterite Miner Crusher",
+      "Machine": "Modular Miner (Crusher)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Siterite",
+          "Amount": "1"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "1/3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Crushed Tin",
+      "Machine": "Sorter",
+      "BatchTime": "8",
+      "Tier": "6-0",
+      "Parts": [
+        {
+          "Part": "Crushed Siterite",
+          "Amount": "-24"
+        },
+        {
+          "Part": "Air",
+          "Amount": "-10"
+        },
+        {
+          "Part": "Crushed Tin",
+          "Amount": "18"
+        },
+        {
+          "Part": "Crushed Iron",
+          "Amount": "9"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "8"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Crushed Zinc",
+      "Machine": "Sorter",
+      "BatchTime": "10",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Larrussite",
+          "Amount": "-20"
+        },
+        {
+          "Part": "Crushed Zinc",
+          "Amount": "16"
+        },
+        {
+          "Part": "Sand",
+          "Amount": "8"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "10"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Crystal Computer",
       "Machine": "Assembler",
       "BatchTime": "36",
@@ -5475,7 +6105,8 @@
           "Part": "Computer",
           "Amount": "2"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Crystal Oscillator",
@@ -5499,13 +6130,14 @@
           "Part": "Crystal Oscillator",
           "Amount": "2"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Cured Plastic",
       "Machine": "Refinery",
       "BatchTime": "12",
-      "Tier": "0-1",
+      "Tier": "5-0",
       "Parts": [
         {
           "Part": "Polymer Resin",
@@ -5525,7 +6157,7 @@
       "Name": "Cured Rubber",
       "Machine": "Foundry",
       "BatchTime": "18",
-      "Tier": "0-1",
+      "Tier": "5-0",
       "Parts": [
         {
           "Part": "Polymer Resin",
@@ -5539,13 +6171,14 @@
           "Part": "Rubber",
           "Amount": "12"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Diluted Bitumen",
       "Machine": "Refinery",
       "BatchTime": "6",
-      "Tier": "0-0",
+      "Tier": "5-0",
       "Alternate": true,
       "Parts": [
         {
@@ -5561,7 +6194,7 @@
           "Amount": "1"
         }
       ],
-      "todo": "tier"
+      "todo": "check"
     },
     {
       "Name": "Direct Steel",
@@ -5607,10 +6240,73 @@
       "Credit": "asmo"
     },
     {
+      "Name": "Dirt - Crushed Gangue Miner Smelter",
+      "Machine": "Modular Miner (Smelter)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "1"
+        },
+        {
+          "Part": "Tailings Slurry",
+          "Amount": "1/3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Dirt - Sand Miner Crusher",
+      "Machine": "Modular Miner (Crusher)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Sand",
+          "Amount": "1"
+        },
+        {
+          "Part": "Sand",
+          "Amount": "1/3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Dirt Seed Extractor",
+      "Machine": "Seed Extractor",
+      "BatchTime": "2",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Dirt",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Wheat Seed",
+          "Amount": "1"
+        },
+        {
+          "Part": "Corn Seed",
+          "Amount": "1"
+        },
+        {
+          "Part": "Potato Seed",
+          "Amount": "1"
+        },
+        {
+          "Part": "Carrot Seed",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Distilled Fuel",
       "Machine": "Chemical Reactor",
       "BatchTime": "12",
-      "Tier": "0-1",
+      "Tier": "5-0",
       "Parts": [
         {
           "Part": "Purified Crude Oil",
@@ -5638,7 +6334,7 @@
       "Name": "Distilled Natural Gas",
       "Machine": "Chemical Reactor",
       "BatchTime": "12",
-      "Tier": "0-1",
+      "Tier": "5-0",
       "Parts": [
         {
           "Part": "Purified Crude Oil",
@@ -5659,45 +6355,77 @@
       ]
     },
     {
-      "Name": "Electromagnetic Connection Rod",
-      "Machine": "Assembler",
-      "BatchTime": "15",
+      "Name": "Distilled Oil Residue",
+      "Machine": "Chemical Reactor",
+      "BatchTime": "10",
+      "Tier": "5-0",
       "Alternate": true,
-      "Tier": "8-2",
       "Parts": [
         {
-          "Part": "Stator",
-          "Amount": "-2"
+          "Part": "Purified Crude Oil",
+          "Amount": "-6"
         },
         {
-          "Part": "High-Speed Connector",
-          "Amount": "-1"
+          "Part": "Steam",
+          "Amount": "-5"
         },
         {
-          "Part": "Electromagnetic Control Rod",
+          "Part": "Heavy Oil Residue",
+          "Amount": "8"
+        },
+        {
+          "Part": "Asphalt",
           "Amount": "2"
+        },
+        {
+          "Part": "Petroleum Coke",
+          "Amount": "5"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
-      "Name": "Electromagnetic Control Rod",
+      "Name": "EP Control Rod",
       "Machine": "Assembler",
-      "BatchTime": "30",
-      "Tier": "8-2",
+      "BatchTime": "120",
+      "Tier": "6-3",
       "Parts": [
         {
-          "Part": "Stator",
-          "Amount": "-3"
+          "Part": "Magnetic Core",
+          "Amount": "-27"
         },
+        {
+          "Part": "Bar Magnet",
+          "Amount": "-13"
+        },
+        {
+          "Part": "EP Control Rod",
+          "Amount": "8"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Electronic Control Rod",
+      "Machine": "Assembler",
+      "BatchTime": "40",
+      "Tier": "3-3",
+      "Alternate": true,
+      "Parts": [
         {
           "Part": "AI Limiter",
-          "Amount": "-2"
+          "Amount": "-10"
         },
         {
-          "Part": "Electromagnetic Control Rod",
-          "Amount": "2"
+          "Part": "Quickwire",
+          "Amount": "-160"
+        },
+        {
+          "Part": "EP Control Rod",
+          "Amount": "8"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Empty Canister",
@@ -5719,7 +6447,7 @@
       "Name": "Empty Fluid Tank",
       "Machine": "Constructor",
       "BatchTime": "2",
-      "Tier": "5-3",
+      "Tier": "5-4",
       "Parts": [
         {
           "Part": "Steel Ingot",
@@ -5735,7 +6463,7 @@
       "Name": "Empty Heat Tank",
       "Machine": "Assembler",
       "BatchTime": "4",
-      "Tier": "0-0",
+      "Tier": "5-4",
       "Parts": [
         {
           "Part": "Steel Rod",
@@ -5772,74 +6500,6 @@
         }
       ],
       "Credit": "asmo"
-    },
-    {
-      "Name": "Encased Plutonium Cell",
-      "Machine": "Assembler",
-      "BatchTime": "12",
-      "Tier": "8-5",
-      "Parts": [
-        {
-          "Part": "Plutonium Pellet",
-          "Amount": "-2"
-        },
-        {
-          "Part": "Concrete",
-          "Amount": "-4"
-        },
-        {
-          "Part": "Encased Plutonium Cell",
-          "Amount": "1"
-        }
-      ]
-    },
-    {
-      "Name": "Ethylene Boiler Mk.1",
-      "Machine": "Modular Power Boiler Mk.1",
-      "BatchTime": "60",
-      "Tier": "3-1",
-      "Parts": [
-        {
-          "Part": "Ethylene Gas",
-          "Amount": "-20"
-        },
-        {
-          "Part": "Flue Gas",
-          "Amount": "15"
-        },
-        {
-          "Part": "Water",
-          "Amount": "-15"
-        },
-        {
-          "Part": "Steam",
-          "Amount": "30"
-        }
-      ]
-    },
-    {
-      "Name": "Ethylene Boiler Mk.2",
-      "Machine": "Modular Power Boiler Mk.2",
-      "BatchTime": "60",
-      "Tier": "3-1",
-      "Parts": [
-        {
-          "Part": "Ethylene Gas",
-          "Amount": "-20"
-        },
-        {
-          "Part": "Flue Gas",
-          "Amount": "15"
-        },
-        {
-          "Part": "Water",
-          "Amount": "-45"
-        },
-        {
-          "Part": "Steam",
-          "Amount": "90"
-        }
-      ]
     },
     {
       "Name": "Explosive Rebar",
@@ -5995,7 +6655,7 @@
     {
       "Name": "Fabric",
       "Machine": "Assembler",
-      "BatchTime": "12",
+      "BatchTime": "4",
       "Tier": "2-1",
       "Parts": [
         {
@@ -6004,11 +6664,11 @@
         },
         {
           "Part": "Biomass",
-          "Amount": "-4"
+          "Amount": "-5"
         },
         {
           "Part": "Fabric",
-          "Amount": "2"
+          "Amount": "1"
         }
       ]
     },
@@ -6055,22 +6715,6 @@
       "Ficsmas": true
     },
     {
-      "Name": "Ficsite Trigon",
-      "Machine": "Constructor",
-      "BatchTime": "6",
-      "Tier": "9-1",
-      "Parts": [
-        {
-          "Part": "Ficsite Ingot",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Ficsite Trigon",
-          "Amount": "3"
-        }
-      ]
-    },
-    {
       "Name": "Flue Gas Filtered",
       "Machine": "Filtrator",
       "BatchTime": "6",
@@ -6103,7 +6747,7 @@
       "Name": "Flue Gas Stack",
       "Machine": "Flue Gas Stack",
       "BatchTime": "60",
-      "Tier": "0-1",
+      "Tier": "2-1",
       "Parts": [
         {
           "Part": "Flue Gas",
@@ -6129,76 +6773,33 @@
           "Part": "Polymer Resin",
           "Amount": "3"
         }
-      ]
-    },
-    {
-      "Name": "Fuel Boiler Mk.1",
-      "Machine": "Modular Power Boiler Mk.1",
-      "BatchTime": "60",
-      "Tier": "3-1",
-      "Parts": [
-        {
-          "Part": "Fuel",
-          "Amount": "-15"
-        },
-        {
-          "Part": "Flue Gas",
-          "Amount": "30"
-        },
-        {
-          "Part": "Water",
-          "Amount": "-15"
-        },
-        {
-          "Part": "Steam",
-          "Amount": "30"
-        }
-      ]
-    },
-    {
-      "Name": "Fuel Boiler Mk.2",
-      "Machine": "Modular Power Boiler Mk.2",
-      "BatchTime": "60",
-      "Tier": "3-1",
-      "Parts": [
-        {
-          "Part": "Fuel",
-          "Amount": "-15"
-        },
-        {
-          "Part": "Flue Gas",
-          "Amount": "30"
-        },
-        {
-          "Part": "Water",
-          "Amount": "-45"
-        },
-        {
-          "Part": "Steam",
-          "Amount": "90"
-        }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Fused Quartz Crystal",
-      "Machine": "Foundry",
-      "BatchTime": "20",
-      "Alternate": true,
-      "Tier": "3-3",
+      "Machine": "Chemical Reactor",
+      "BatchTime": "120",
+      "Tier": "5-2",
       "Parts": [
         {
-          "Part": "Raw Quartz",
-          "Amount": "-25"
+          "Part": "Silica",
+          "Amount": "-90"
         },
         {
-          "Part": "Coal",
-          "Amount": "-12"
+          "Part": "Water",
+          "Amount": "-20"
+        },
+        {
+          "Part": "Caustic Soda",
+          "Amount": "-15"
         },
         {
           "Part": "Quartz Crystal",
-          "Amount": "18"
+          "Amount": "75"
         }
-      ]
+      ],
+      "Credit": "asmo last"
     },
     {
       "Name": "Gas Filter",
@@ -6261,85 +6862,186 @@
       ]
     },
     {
-      "Name": "Heat Exchanger",
-      "Machine": "Assembler",
+      "Name": "Heavy Ethylene Gas",
+      "Machine": "Refinery",
       "BatchTime": "6",
-      "Alternate": true,
-      "Tier": "8-3",
+      "Tier": "5-0",
       "Parts": [
         {
-          "Part": "Aluminum Casing",
-          "Amount": "-3"
+          "Part": "Heavy Oil Residue",
+          "Amount": "-4"
         },
         {
-          "Part": "Rubber",
-          "Amount": "-3"
+          "Part": "Steam",
+          "Amount": "-8"
         },
         {
-          "Part": "Heat Sink",
+          "Part": "Ethylene Gas",
+          "Amount": "6"
+        },
+        {
+          "Part": "Polymer Resin",
+          "Amount": "12"
+        },
+        {
+          "Part": "Sulfur",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Heavy Modular Frame",
+      "Machine": "Manufacturer",
+      "BatchTime": "48",
+      "Tier": "4-1",
+      "Parts": [
+        {
+          "Part": "Modular Frame",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Encased Industrial Beam",
+          "Amount": "-12"
+        },
+        {
+          "Part": "Brass Pipes",
+          "Amount": "-30"
+        },
+        {
+          "Part": "Steel Bolt",
+          "Amount": "-180"
+        },
+        {
+          "Part": "Heavy Modular Frame",
+          "Amount": "3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "High Pressure Diamonds",
+      "Machine": "Constructor",
+      "BatchTime": "300",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Carbon Powder",
+          "Amount": "-100"
+        },
+        {
+          "Part": "Diamonds",
+          "Amount": "5"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "High-Speed Connector",
+      "Machine": "Manufacturer",
+      "BatchTime": "32",
+      "Tier": "6-2",
+      "Parts": [
+        {
+          "Part": "Quickwire",
+          "Amount": "-72"
+        },
+        {
+          "Part": "Circuit Board",
+          "Amount": "-12"
+        },
+        {
+          "Part": "Cobalt Plates",
+          "Amount": "-6"
+        },
+        {
+          "Part": "High-Speed Connector",
+          "Amount": "5"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Hog Protein",
+      "Machine": "Constructor",
+      "BatchTime": "3",
+      "Tier": "0-3",
+      "Parts": [
+        {
+          "Part": "Hog Remains",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Alien Protein",
           "Amount": "1"
         }
       ]
     },
     {
-      "Name": "Heat Sink",
+      "Name": "Homing Rifle Ammo",
       "Machine": "Assembler",
-      "BatchTime": "8",
-      "Tier": "8-3",
+      "BatchTime": "24",
+      "Tier": "6-1",
       "Parts": [
         {
-          "Part": "Alclad Aluminum Sheet",
+          "Part": "Rifle Ammo",
+          "Amount": "-20"
+        },
+        {
+          "Part": "High-Speed Connector",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Homing Rifle Ammo",
+          "Amount": "10"
+        }
+      ]
+    },
+    {
+      "Name": "Hydrogen (Toxic Air)",
+      "Machine": "Chemical Reactor",
+      "BatchTime": "4",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Toxic Air",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Air",
+          "Amount": "-4"
+        },
+        {
+          "Part": "Fabric",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Hydrogen Gas",
+          "Amount": "2.4"
+        },
+        {
+          "Part": "Natural Gas",
+          "Amount": "5"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Impure Caterium Ingot",
+      "Machine": "Smelter",
+      "BatchTime": "7.5",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Aurovite",
           "Amount": "-5"
         },
         {
-          "Part": "Copper Sheet",
-          "Amount": "-3"
-        },
-        {
-          "Part": "Heat Sink",
-          "Amount": "1"
+          "Part": "Caterium Ingot",
+          "Amount": "3"
         }
-      ]
-    },
-    {
-      "Name": "Hydrogen Boiler Mk.1",
-      "Machine": "Modular Power Boiler Mk.1",
-      "BatchTime": "60",
-      "Tier": "3-1",
-      "Parts": [
-        {
-          "Part": "Hydrogen Gas",
-          "Amount": "-50"
-        },
-        {
-          "Part": "Water",
-          "Amount": "-9"
-        },
-        {
-          "Part": "Steam",
-          "Amount": "30"
-        }
-      ]
-    },
-    {
-      "Name": "Hydrogen Boiler Mk.2",
-      "Machine": "Modular Power Boiler Mk.2",
-      "BatchTime": "60",
-      "Tier": "3-1",
-      "Parts": [
-        {
-          "Part": "Hydrogen Gas",
-          "Amount": "-50"
-        },
-        {
-          "Part": "Water",
-          "Amount": "-39"
-        },
-        {
-          "Part": "Steam",
-          "Amount": "90"
-        }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Impure Copper Ingot",
@@ -6410,55 +7112,6 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Insulated Crystal Oscillator",
-      "Machine": "Manufacturer",
-      "BatchTime": "32",
-      "Alternate": true,
-      "Tier": "6-1",
-      "Parts": [
-        {
-          "Part": "Quartz Crystal",
-          "Amount": "-10"
-        },
-        {
-          "Part": "Rubber",
-          "Amount": "-7"
-        },
-        {
-          "Part": "AI Limiter",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Crystal Oscillator",
-          "Amount": "1"
-        }
-      ]
-    },
-    {
-      "Name": "Iodine-Infused Filter",
-      "Machine": "Manufacturer",
-      "BatchTime": "16",
-      "Tier": "7-4",
-      "Parts": [
-        {
-          "Part": "Gas Filter",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Quickwire",
-          "Amount": "-8"
-        },
-        {
-          "Part": "Aluminum Casing",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Iodine-Infused Filter",
-          "Amount": "1"
-        }
-      ]
-    },
-    {
       "Name": "Ionized Fuel",
       "Machine": "Refinery",
       "BatchTime": "24",
@@ -6480,7 +7133,8 @@
           "Part": "Compacted Coal",
           "Amount": "2"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Iron FICSMAS Ornament",
@@ -6521,6 +7175,23 @@
       "Credit": "asmo"
     },
     {
+      "Name": "Iron Ingot Miner Smelter",
+      "Machine": "Modular Miner (Smelter)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Iron Ingot",
+          "Amount": "1"
+        },
+        {
+          "Part": "Tailings Slurry",
+          "Amount": "1/3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Iron Plate",
       "Machine": "Constructor",
       "BatchTime": "12",
@@ -6551,7 +7222,8 @@
           "Part": "Iron Rebar",
           "Amount": "1"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Iron Rod",
@@ -6650,7 +7322,7 @@
       "Name": "Lead Ingot",
       "Machine": "Smelter",
       "BatchTime": "4",
-      "Tier": "0-0",
+      "Tier": "5-2",
       "Parts": [
         {
           "Part": "Crushed Lead",
@@ -6664,27 +7336,10 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Lead Plate (ob)",
-      "Machine": "Constructor",
-      "BatchTime": "6",
-      "Tier": "0-0",
-      "Parts": [
-        {
-          "Part": "Lead Ingot",
-          "Amount": "-3"
-        },
-        {
-          "Part": "Lead Plate",
-          "Amount": "2"
-        }
-      ],
-      "Credit": "asmo"
-    },
-    {
       "Name": "Lead Sheet",
       "Machine": "Constructor",
       "BatchTime": "16",
-      "Tier": "0-0",
+      "Tier": "5-2",
       "Parts": [
         {
           "Part": "Lead Ingot",
@@ -6699,9 +7354,9 @@
     },
     {
       "Name": "Leaded Fuel",
-      "Machine": "Refinery",
+      "Machine": "Chemical Reactor",
       "BatchTime": "12",
-      "Tier": "0-0",
+      "Tier": "5-2",
       "Alternate": true,
       "Parts": [
         {
@@ -6710,14 +7365,13 @@
         },
         {
           "Part": "Crushed Lead",
-          "Amount": "1"
+          "Amount": "-1"
         },
         {
           "Part": "Fuel",
           "Amount": "5"
         }
-      ],
-      "todo": "tier"
+      ]
     },
     {
       "Name": "Leaves Biomass Burner",
@@ -6735,7 +7389,7 @@
       "Name": "Light Ethylene Gas",
       "Machine": "Refinery",
       "BatchTime": "6",
-      "Tier": "0-1",
+      "Tier": "5-2",
       "Parts": [
         {
           "Part": "Natural Gas",
@@ -6765,7 +7419,8 @@
           "Part": "Liquid Biofuel",
           "Amount": "4"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Loam",
@@ -6857,48 +7512,54 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Magnetic Field Generator",
-      "Machine": "Assembler",
-      "BatchTime": "120",
-      "Tier": "8-2",
+      "Name": "Magnetic Core",
+      "Machine": "Foundry",
+      "BatchTime": "80",
+      "Tier": "6-3",
       "Parts": [
         {
-          "Part": "Versatile Framework",
-          "Amount": "-5"
+          "Part": "Magnitar Billet",
+          "Amount": "-30"
         },
         {
-          "Part": "Electromagnetic Control Rod",
-          "Amount": "-2"
+          "Part": "Caterium Rod",
+          "Amount": "-32"
         },
         {
-          "Part": "Magnetic Field Generator",
-          "Amount": "2"
+          "Part": "Magnetic Core",
+          "Amount": "15"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Modular Engine",
       "Machine": "Manufacturer",
-      "BatchTime": "60",
-      "Tier": "6-1",
+      "BatchTime": "24",
+      "Tier": "5-2",
       "Parts": [
         {
+          "Part": "Versatile Framework",
+          "Amount": "-3"
+        },
+        {
           "Part": "Motor",
-          "Amount": "-2"
+          "Amount": "-3"
+        },
+        {
+          "Part": "Circuit Board",
+          "Amount": "-4"
         },
         {
           "Part": "Rubber",
-          "Amount": "-15"
-        },
-        {
-          "Part": "Smart Plating",
-          "Amount": "-2"
+          "Amount": "-20"
         },
         {
           "Part": "Modular Engine",
           "Amount": "1"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Modular Frame",
@@ -6943,6 +7604,52 @@
       "Credit": "asmo"
     },
     {
+      "Name": "Molten Caterium",
+      "Machine": "Flexible Blast Furnace",
+      "BatchTime": "6",
+      "Tier": "6-2",
+      "Parts": [
+        {
+          "Part": "Crushed Caterium",
+          "Amount": "-16"
+        },
+        {
+          "Part": "Molten Caterium",
+          "Amount": "8"
+        },
+        {
+          "Part": "Tailings Slurry",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Molten Cobalt",
+      "Machine": "Flexible Blast Furnace",
+      "BatchTime": "8",
+      "Tier": "6-2",
+      "Parts": [
+        {
+          "Part": "Crushed Cobalt",
+          "Amount": "-12"
+        },
+        {
+          "Part": "Hydrogen Gas",
+          "Amount": "-6.4"
+        },
+        {
+          "Part": "Molten Cobalt",
+          "Amount": "6"
+        },
+        {
+          "Part": "Tailings Slurry",
+          "Amount": "6"
+        }
+      ],
+      "Credit": "asmo last"
+    },
+    {
       "Name": "Molten Copper",
       "Machine": "Flexible Blast Furnace",
       "BatchTime": "10",
@@ -6972,6 +7679,102 @@
         {
           "Part": "Molten Iron",
           "Amount": "12"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Molten Lead",
+      "Machine": "Flexible Blast Furnace",
+      "BatchTime": "5",
+      "Tier": "6-2",
+      "Parts": [
+        {
+          "Part": "Crushed Lead",
+          "Amount": "-6"
+        },
+        {
+          "Part": "Molten Lead",
+          "Amount": "3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Molten Magnitar",
+      "Machine": "Flexible Blast Furnace",
+      "BatchTime": "6",
+      "Tier": "6-3",
+      "Parts": [
+        {
+          "Part": "Molten Nickel",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Crushed Cobalt",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Molten Iron",
+          "Amount": "-4"
+        },
+        {
+          "Part": "Molten Magnitar",
+          "Amount": "6"
+        },
+        {
+          "Part": "Tailings Slurry",
+          "Amount": "4"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Molten Nickel",
+      "Machine": "Flexible Blast Furnace",
+      "BatchTime": "16",
+      "Tier": "6-2",
+      "Parts": [
+        {
+          "Part": "Crushed Nickel",
+          "Amount": "-24"
+        },
+        {
+          "Part": "Hydrogen Gas",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Molten Nickel",
+          "Amount": "12"
+        },
+        {
+          "Part": "Tailings Slurry",
+          "Amount": "8"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Molten Solder",
+      "Machine": "Flexible Blast Furnace",
+      "BatchTime": "10",
+      "Tier": "5-2",
+      "Parts": [
+        {
+          "Part": "Molten Tin",
+          "Amount": "-5"
+        },
+        {
+          "Part": "Crushed Lead",
+          "Amount": "-10"
+        },
+        {
+          "Part": "Air",
+          "Amount": "-8"
+        },
+        {
+          "Part": "Solder",
+          "Amount": "6"
         }
       ],
       "Credit": "asmo"
@@ -7098,18 +7901,6 @@
       ]
     },
     {
-      "Name": "Nitrogen Gas",
-      "Machine": "Resource Well Extractor",
-      "BatchTime": "1",
-      "Tier": "8-3",
-      "Parts": [
-        {
-          "Part": "Nitrogen Gas",
-          "Amount": "1"
-        }
-      ]
-    },
-    {
       "Name": "Nobelisk",
       "Machine": "Assembler",
       "BatchTime": "6",
@@ -7130,71 +7921,52 @@
       ]
     },
     {
-      "Name": "Nuke Nobelisk",
-      "Machine": "Manufacturer",
-      "BatchTime": "120",
-      "Tier": "8-2",
-      "Parts": [
-        {
-          "Part": "Nobelisk",
-          "Amount": "-5"
-        },
-        {
-          "Part": "Encased Uranium Cell",
-          "Amount": "-20"
-        },
-        {
-          "Part": "Smokeless Powder",
-          "Amount": "-10"
-        },
-        {
-          "Part": "AI Limiter",
-          "Amount": "-6"
-        },
-        {
-          "Part": "Nuke Nobelisk",
-          "Amount": "1"
-        }
-      ]
-    },
-    {
-      "Name": "OC Supercomputer",
-      "Machine": "Assembler",
-      "BatchTime": "20",
-      "Alternate": true,
-      "Tier": "8-3",
-      "Parts": [
-        {
-          "Part": "Radio Control Unit",
-          "Amount": "-2"
-        },
-        {
-          "Part": "Cooling System",
-          "Amount": "-2"
-        },
-        {
-          "Part": "Supercomputer",
-          "Amount": "1"
-        }
-      ]
-    },
-    {
-      "Name": "Oil Well",
-      "Machine": "Resource Well Extractor",
+      "Name": "Packaged Air",
+      "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
-      "Tier": "8-3",
+      "Tier": "5-4",
       "Parts": [
         {
-          "Part": "Crude Oil",
+          "Part": "Air",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Air",
           "Amount": "1"
         }
-      ]
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Algal Mass",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Algal Mass",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Canister",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Algal Mass",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Packaged Alumina Solution",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
-      "Tier": "7-1",
+      "Tier": "5-4",
       "Parts": [
         {
           "Part": "Alumina Solution",
@@ -7211,18 +7983,123 @@
       ]
     },
     {
+      "Name": "Packaged Caustic Soda",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Caustic Soda",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Canister",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Caustic Soda",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Cooling Water",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Coolant",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Cryo Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Cooling Water",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Dirty Water",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Wastewater",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Canister",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Dirty Water",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Energized Slug Slime",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Spent Slug Slime",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Cryo Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Energized Slug Slime",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Ethylene Gas",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Ethylene Gas",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Ethylene Gas",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Packaged Flue Gas",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
       "Parts": [
         {
-          "Part": "Empty Fluid Tank",
-          "Amount": "-1"
-        },
-        {
           "Part": "Flue Gas",
           "Amount": "-2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "-1"
         },
         {
           "Part": "Packaged Flue Gas",
@@ -7251,18 +8128,81 @@
       ]
     },
     {
+      "Name": "Packaged Heavy Oil Residue",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Heavy Oil Residue",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Barrel",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Heavy Oil Residue",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged High Energized Slug Slime",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Energized Slug Slime",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Cryo Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged High Energized Slug Slime",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Hydrochloric Acid",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Hydrochloric Acid",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Canister",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Hydrochloric Acid",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Packaged Hydrogen",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
       "Parts": [
         {
-          "Part": "Empty Fluid Tank",
-          "Amount": "-1"
-        },
-        {
           "Part": "Hydrogen Gas",
           "Amount": "-2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "-1"
         },
         {
           "Part": "Packaged Hydrogen",
@@ -7320,13 +8260,413 @@
           "Part": "Packaged Liquid Biofuel",
           "Amount": "-1"
         }
-      ]
+      ],
+      "todo": "check"
+    },
+    {
+      "Name": "Packaged Methane",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Ethylene Gas",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Methane",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Mineral Slug Slime",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Mineral Slug Slime",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Cryo Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Mineral Slug Slime",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Aluminium",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Aluminium",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Aluminium",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Brass",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Brass",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Brass",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Bronze",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Bronze",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Bronze",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Caterium",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Caterium",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Caterium",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Cobalt",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Cobalt",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Cobalt",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Copper",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Copper",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Copper",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Iron",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Iron",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Iron",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Lead",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Lead",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Lead",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Magnesium",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Magnesium",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Magnesium",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Magnitar",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Magnitar",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Magnitar",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Nickel",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Nickel",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Nickel",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Slag",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Tailings Slurry",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Slag",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Solder",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Solder",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Solder",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Steel",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Steel",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Steel",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Tin",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Tin",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Tin",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Molten Zinc",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Molten Zinc",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Molten Zinc",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Natural Gas",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Natural Gas",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Natural Gas",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Packaged Nitric Acid",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
-      "Tier": "8-5",
+      "Tier": "5-4",
       "Parts": [
         {
           "Part": "Nitric Acid",
@@ -7340,7 +8680,8 @@
           "Part": "Packaged Nitric Acid",
           "Amount": "1"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Packaged Nitrogen Gas",
@@ -7360,7 +8701,92 @@
           "Part": "Packaged Nitrogen Gas",
           "Amount": "1"
         }
-      ]
+      ],
+      "todo": "check"
+    },
+    {
+      "Name": "Packaged Oil",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Crude Oil",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Barrel",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Oil",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Oxyhydrogen",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Oxyhydrogen",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Oxyhydrogen",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Purified Crude Oil",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Purified Crude Oil",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Barrel",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Purified Crude Oil",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Raw Sludge",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Raw Sludge",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Canister",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Raw Sludge",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Packaged Rocket Fuel",
@@ -7383,10 +8809,52 @@
       ]
     },
     {
+      "Name": "Packaged Slug Slime",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Slug Slime",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Empty Cryo Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Slug Slime",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Steam",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Steam",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Steam",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Packaged Sulfuric Acid",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
-      "Tier": "7-5",
+      "Tier": "5-4",
       "Parts": [
         {
           "Part": "Sulfuric Acid",
@@ -7401,6 +8869,48 @@
           "Amount": "1"
         }
       ]
+    },
+    {
+      "Name": "Packaged Sulfurous Gas",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Sulfurous Gas",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Sulfurous Gas",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Packaged Toxic Air",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Toxic Air",
+          "Amount": "-2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Packaged Toxic Air",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Packaged Turbo Rifle Ammo",
@@ -7424,7 +8934,8 @@
           "Part": "Turbo Rifle Ammo",
           "Amount": "50"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Packaged Turbofuel",
@@ -7476,6 +8987,40 @@
         {
           "Part": "Peat",
           "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Peat - Crushed Gangue Miner Smelter",
+      "Machine": "Modular Miner (Smelter)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "1"
+        },
+        {
+          "Part": "Tailings Slurry",
+          "Amount": "1/3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Peat - Sand Miner Crusher",
+      "Machine": "Modular Miner (Crusher)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Sand",
+          "Amount": "1"
+        },
+        {
+          "Part": "Sand",
+          "Amount": "1/3"
         }
       ],
       "Credit": "asmo"
@@ -7542,7 +9087,7 @@
       "Name": "Polyethylene",
       "Machine": "Reformer",
       "BatchTime": "24",
-      "Tier": "0-1",
+      "Tier": "5-0",
       "Parts": [
         {
           "Part": "Ethylene Gas",
@@ -7587,14 +9132,6 @@
         }
       ],
       "Credit": "asmo"
-    },
-    {
-      "Name": "Pressure Conversion Cube",
-      "Machine": "Assembler",
-      "BatchTime": "60",
-      "Tier": "8-5",
-      "Parts": [ ],
-      "Placeholder": true
     },
     {
       "Name": "Pulse Nobelisk",
@@ -7647,7 +9184,7 @@
       "Machine": "Refinery",
       "BatchTime": "5",
       "Alternate": true,
-      "Tier": "0-1",
+      "Tier": "5-2",
       "Parts": [
         {
           "Part": "Hydrogen Gas",
@@ -7665,29 +9202,8 @@
           "Part": "Empty Fluid Tank",
           "Amount": "2"
         }
-      ]
-    },
-    {
-      "Name": "Pure Quartz Crystal",
-      "Machine": "Refinery",
-      "BatchTime": "8",
-      "Alternate": true,
-      "Tier": "5-2",
-      "Parts": [
-        {
-          "Part": "Raw Quartz",
-          "Amount": "-9"
-        },
-        {
-          "Part": "Water",
-          "Amount": "-5"
-        },
-        {
-          "Part": "Quartz Crystal",
-          "Amount": "7"
-        }
       ],
-      "todo": "verify"
+      "todo": "check-alternate"
     },
     {
       "Name": "Purified Crude Oil",
@@ -7754,30 +9270,6 @@
         }
       ],
       "Credit": "asmo"
-    },
-    {
-      "Name": "Radio Control Unit",
-      "Machine": "Manufacturer",
-      "BatchTime": "48",
-      "Tier": "7-5",
-      "Parts": [
-        {
-          "Part": "Aluminum Casing",
-          "Amount": "-32"
-        },
-        {
-          "Part": "Crystal Oscillator",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Computer",
-          "Amount": "-2"
-        },
-        {
-          "Part": "Radio Control Unit",
-          "Amount": "2"
-        }
-      ]
     },
     {
       "Name": "Reanimated SAM",
@@ -7888,13 +9380,6 @@
       ]
     },
     {
-      "Name": "Resource Well Pressurizer",
-      "Machine": "Resource Well Pressurizer",
-      "BatchTime": "1",
-      "Tier": "8-3",
-      "Parts": []
-    },
-    {
       "Name": "Rifle Ammo",
       "Machine": "Assembler",
       "BatchTime": "12",
@@ -7991,6 +9476,52 @@
       ]
     },
     {
+      "Name": "Salt (Kyalite)",
+      "Machine": "Sorter",
+      "BatchTime": "20",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Kyalite",
+          "Amount": "-60"
+        },
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Salt",
+          "Amount": "30"
+        },
+        {
+          "Part": "Silica",
+          "Amount": "16"
+        },
+        {
+          "Part": "Sand",
+          "Amount": "16"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Salt Miner Crusher",
+      "Machine": "Modular Miner (Crusher)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Salt",
+          "Amount": "1"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "1/3"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
       "Name": "Screw",
       "Machine": "Constructor",
       "BatchTime": "6",
@@ -8004,7 +9535,8 @@
           "Part": "Screw",
           "Amount": "4"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Shatter Rebar",
@@ -8024,81 +9556,37 @@
           "Part": "Shatter Rebar",
           "Amount": "1"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
-      "Name": "Silicon Circuit Board",
-      "Machine": "Assembler",
-      "BatchTime": "24",
-      "Alternate": true,
-      "Tier": "5-2",
+      "Name": "Silica (Larrussite)",
+      "Machine": "Sorter",
+      "BatchTime": "3",
+      "Tier": "0-0",
       "Parts": [
         {
-          "Part": "Copper Sheet",
-          "Amount": "-11"
+          "Part": "Crushed Larrussite",
+          "Amount": "-9"
+        },
+        {
+          "Part": "Air",
+          "Amount": "-8"
         },
         {
           "Part": "Silica",
-          "Amount": "-11"
+          "Amount": "6"
         },
         {
-          "Part": "Circuit Board",
-          "Amount": "5"
-        }
-      ]
-    },
-    {
-      "Name": "Silicon High-Speed Connector",
-      "Machine": "Manufacturer",
-      "BatchTime": "40",
-      "Alternate": true,
-      "Tier": "6-1",
-      "Parts": [
-        {
-          "Part": "Quickwire",
-          "Amount": "-60"
+          "Part": "Crushed Zinc",
+          "Amount": "4"
         },
         {
-          "Part": "Silica",
-          "Amount": "-25"
-        },
-        {
-          "Part": "Circuit Board",
-          "Amount": "-2"
-        },
-        {
-          "Part": "High-Speed Connector",
+          "Part": "Sand",
           "Amount": "2"
         }
-      ]
-    },
-    {
-      "Name": "Singularity Cell",
-      "Machine": "Manufacturer",
-      "BatchTime": "60",
-      "Tier": "9-4",
-      "Parts": [
-        {
-          "Part": "Nuclear Pasta",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Dark Matter Crystal",
-          "Amount": "-20"
-        },
-        {
-          "Part": "Iron Plate",
-          "Amount": "-100"
-        },
-        {
-          "Part": "Concrete",
-          "Amount": "-200"
-        },
-        {
-          "Part": "Singularity Cell",
-          "Amount": "10"
-        }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Siterite Ore",
@@ -8135,27 +9623,6 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Sloppy Alumina",
-      "Machine": "Refinery",
-      "BatchTime": "3",
-      "Alternate": true,
-      "Tier": "7-1",
-      "Parts": [
-        {
-          "Part": "Bauxite",
-          "Amount": "-10"
-        },
-        {
-          "Part": "Water",
-          "Amount": "-10"
-        },
-        {
-          "Part": "Alumina Solution",
-          "Amount": "12"
-        }
-      ]
-    },
-    {
       "Name": "Smart Plating",
       "Machine": "Assembler",
       "BatchTime": "80",
@@ -8179,16 +9646,16 @@
     {
       "Name": "Smokeless Powder",
       "Machine": "Refinery",
-      "BatchTime": "6",
+      "BatchTime": "4",
       "Tier": "5-2",
       "Parts": [
         {
           "Part": "Black Powder",
-          "Amount": "-2"
+          "Amount": "-3"
         },
         {
-          "Part": "Heavy Oil Residue",
-          "Amount": "-1"
+          "Part": "Ethylene Gas",
+          "Amount": "-2"
         },
         {
           "Part": "Smokeless Powder",
@@ -8263,126 +9730,422 @@
       ]
     },
     {
-      "Name": "Sorted Aurovite",
-      "Machine": "Sorter",
-      "BatchTime": "12",
-      "Tier": "0-0",
+      "Name": "Solution Boiler Mk.1 (Ethylene Gas)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "5-1",
       "Parts": [
         {
-          "Part": "Crushed Aurovite",
-          "Amount": "-24"
-        },
-        {
-          "Part": "Crushed Caterium",
-          "Amount": "16"
-        },
-        {
-          "Part": "Crushed Copper",
-          "Amount": "8"
-        },
-        {
-          "Part": "Crushed Gangue",
-          "Amount": "6"
-        }
-      ],
-      "Credit": "asmo"
-    },
-    {
-      "Name": "Sorted Callanite",
-      "Machine": "Sorter",
-      "BatchTime": "7.5",
-      "Tier": "0-0",
-      "Parts": [
-        {
-          "Part": "Crushed Callanite",
+          "Part": "Water",
           "Amount": "-15"
         },
         {
-          "Part": "Crushed Copper",
-          "Amount": "18"
-        },
-        {
-          "Part": "Crushed Magnesium",
-          "Amount": "10"
-        },
-        {
-          "Part": "Crushed Gangue",
-          "Amount": "5"
-        }
-      ],
-      "Credit": "asmo"
-    },
-    {
-      "Name": "Sorted Larrusite",
-      "Machine": "Sorter",
-      "BatchTime": "10",
-      "Tier": "0-0",
-      "Parts": [
-        {
-          "Part": "Crushed Larrussite",
+          "Part": "Ethylene Gas",
           "Amount": "-20"
         },
         {
-          "Part": "Crushed Zinc",
-          "Amount": "16"
+          "Part": "Steam",
+          "Amount": "30"
         },
         {
-          "Part": "Sand",
-          "Amount": "8"
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ]
+    },
+    {
+      "Name": "Solution Boiler Mk.1 (Fuel)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
         },
         {
-          "Part": "Crushed Gangue",
+          "Part": "Fuel",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "30"
+        }
+      ]
+    },
+    {
+      "Name": "Solution Boiler Mk.1 (Hydrogen Gas)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Hydrogen Gas",
+          "Amount": "-50"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Water",
+          "Amount": "6"
+        }
+      ],
+      "todo": "check"
+    },
+    {
+      "Name": "Solution Boiler Mk.1 (Ionized Fuel)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Ionized Fuel",
+          "Amount": "-10"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "20"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Solution Boiler Mk.1 (Liquid Biofuel)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Liquid Biofuel",
+          "Amount": "-20"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "25"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Solution Boiler Mk.1 (Natural Gas)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Natural Gas",
+          "Amount": "-20"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "30"
+        },
+        {
+          "Part": "Flue Gas",
           "Amount": "10"
         }
       ],
       "Credit": "asmo"
     },
     {
-      "Name": "Sorted Montanion",
-      "Machine": "Sorter",
-      "BatchTime": "4",
-      "Tier": "0-0",
+      "Name": "Solution Boiler Mk.1 (Oxyhydrogen)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
+      "Tier": "5-1",
       "Parts": [
         {
-          "Part": "Crushed Montanion",
-          "Amount": "-8"
+          "Part": "Water",
+          "Amount": "-15"
         },
         {
-          "Part": "Crushed Cobalt",
-          "Amount": "6"
+          "Part": "Oxyhydrogen",
+          "Amount": "-10"
         },
         {
-          "Part": "Crushed Magnesium",
-          "Amount": "2"
+          "Part": "Steam",
+          "Amount": "30"
         },
         {
-          "Part": "Crushed Gangue",
-          "Amount": "2"
+          "Part": "Water",
+          "Amount": "12.5"
         }
       ],
       "Credit": "asmo"
     },
     {
-      "Name": "Sorted Siterite",
-      "Machine": "Sorter",
-      "BatchTime": "12",
+      "Name": "Solution Boiler Mk.1 (Solid Biofuel)",
+      "Machine": "Modular Power Boiler Mk.1",
+      "BatchTime": "60",
       "Tier": "0-0",
       "Parts": [
         {
-          "Part": "Crushed Siterite",
-          "Amount": "-24"
+          "Part": "Water",
+          "Amount": "-15"
         },
         {
-          "Part": "Crushed Iron",
-          "Amount": "18"
+          "Part": "Solid Biofuel",
+          "Amount": "-8"
         },
         {
-          "Part": "Crushed Tin",
-          "Amount": "12"
+          "Part": "Steam",
+          "Amount": "30"
         },
         {
-          "Part": "Crushed Gangue",
-          "Amount": "8"
+          "Part": "Flue Gas",
+          "Amount": "16"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Solution Boiler Mk.2 (Ethylene)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-45"
+        },
+        {
+          "Part": "Ethylene Gas",
+          "Amount": "-20"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "90"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ]
+    },
+    {
+      "Name": "Solution Boiler Mk.2 (Fuel)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "3-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-45"
+        },
+        {
+          "Part": "Fuel",
+          "Amount": "-15"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "90"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "30"
+        }
+      ]
+    },
+    {
+      "Name": "Solution Boiler Mk.2 (Hydrogen Gas)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-45"
+        },
+        {
+          "Part": "Hydrogen Gas",
+          "Amount": "-50"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "90"
+        },
+        {
+          "Part": "Water",
+          "Amount": "6"
+        }
+      ],
+      "todo": "check"
+    },
+    {
+      "Name": "Solution Boiler Mk.2 (Ionized Fuel)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-45"
+        },
+        {
+          "Part": "Ionized Fuel",
+          "Amount": "-10"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "90"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "20"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Solution Boiler Mk.2 (Liquid Biofuel)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-45"
+        },
+        {
+          "Part": "Liquid Biofuel",
+          "Amount": "-20"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "90"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "25"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Solution Boiler Mk.2 (Natural Gas)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-45"
+        },
+        {
+          "Part": "Natural Gas",
+          "Amount": "-20"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "90"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "10"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Solution Boiler Mk.2 (Oxyhydrogen)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-45"
+        },
+        {
+          "Part": "Oxyhydrogen",
+          "Amount": "-10"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "90"
+        },
+        {
+          "Part": "Water",
+          "Amount": "12.5"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Solution Boiler Mk.2 (Rocket Fuel)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-45"
+        },
+        {
+          "Part": "Rocket Fuel",
+          "Amount": "-10"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "90"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "15"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Solution Boiler Mk.2 (Turbofuel)",
+      "Machine": "Modular Power Boiler Mk.2",
+      "BatchTime": "60",
+      "Tier": "5-1",
+      "Parts": [
+        {
+          "Part": "Water",
+          "Amount": "-45"
+        },
+        {
+          "Part": "Turbofuel",
+          "Amount": "-10"
+        },
+        {
+          "Part": "Steam",
+          "Amount": "90"
+        },
+        {
+          "Part": "Flue Gas",
+          "Amount": "20"
         }
       ],
       "Credit": "asmo"
@@ -8395,7 +10158,7 @@
       "Parts": [
         {
           "Part": "Smart Plating",
-          "Amount": "-50"
+          "Amount": "-75"
         }
       ]
     },
@@ -8436,54 +10199,6 @@
         {
           "Part": "Adaptive Control Unit",
           "Amount": "-100"
-        }
-      ]
-    },
-    {
-      "Name": "Space Elevator Phase 4",
-      "Machine": "Space Elevator",
-      "BatchTime": "60",
-      "Tier": "8-5",
-      "Parts": [
-        {
-          "Part": "Assembly Director System",
-          "Amount": "-500"
-        },
-        {
-          "Part": "Magnetic Field Generator",
-          "Amount": "-500"
-        },
-        {
-          "Part": "Nuclear Pasta",
-          "Amount": "-100"
-        },
-        {
-          "Part": "Thermal Propulsion Rocket",
-          "Amount": "-250"
-        }
-      ]
-    },
-    {
-      "Name": "Space Elevator Phase 5",
-      "Machine": "Space Elevator",
-      "BatchTime": "60",
-      "Tier": "9-4",
-      "Parts": [
-        {
-          "Part": "Nuclear Pasta",
-          "Amount": "-1000"
-        },
-        {
-          "Part": "Biochemical Sculptor",
-          "Amount": "-1000"
-        },
-        {
-          "Part": "AI Expansion Server",
-          "Amount": "-256"
-        },
-        {
-          "Part": "Ballistic Warp Drive",
-          "Amount": "-200"
         }
       ]
     },
@@ -8562,25 +10277,17 @@
       ]
     },
     {
-      "Name": "Steamed Copper Sheet",
-      "Machine": "Refinery",
-      "BatchTime": "8",
-      "Alternate": true,
-      "Tier": "5-2",
+      "Name": "Steam Stack",
+      "Machine": "Steam Stack",
+      "BatchTime": "60",
+      "Tier": "2-1",
       "Parts": [
         {
-          "Part": "Copper Ingot",
-          "Amount": "-3"
-        },
-        {
-          "Part": "Water",
-          "Amount": "-3"
-        },
-        {
-          "Part": "Copper Sheet",
-          "Amount": "3"
+          "Part": "Steam",
+          "Amount": "-150"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Steel Beam",
@@ -8651,6 +10358,7 @@
           "Amount": "10"
         }
       ],
+      "todo": "check",
       "Credit": "asmo"
     },
     {
@@ -8693,23 +10401,24 @@
     {
       "Name": "Stitched Iron Plate",
       "Machine": "Assembler",
-      "BatchTime": "32",
+      "BatchTime": "40",
       "Alternate": true,
       "Tier": "2-1",
       "Parts": [
         {
           "Part": "Iron Plate",
-          "Amount": "-10"
+          "Amount": "-8"
         },
         {
-          "Part": "Wire",
-          "Amount": "-20"
+          "Part": "Tinned Wire",
+          "Amount": "-18"
         },
         {
           "Part": "Reinforced Iron Plate",
-          "Amount": "3"
+          "Amount": "6"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Stun Rebar",
@@ -8729,84 +10438,80 @@
           "Part": "Stun Rebar",
           "Amount": "1"
         }
-      ]
+      ],
+      "todo": "check"
+    },
+    {
+      "Name": "Sulfur Powder Miner Crusher",
+      "Machine": "Modular Miner (Crusher)",
+      "BatchTime": "60",
+      "Tier": "0-0",
+      "Parts": [
+        {
+          "Part": "Sulfur Powder",
+          "Amount": "1"
+        },
+        {
+          "Part": "Crushed Gangue",
+          "Amount": "1/3"
+        }
+      ],
+      "Credit": "asmo"
     },
     {
       "Name": "Sulfuric Acid",
-      "Machine": "Refinery",
-      "BatchTime": "6",
-      "Tier": "7-5",
+      "Machine": "Reformer",
+      "BatchTime": "8",
+      "Tier": "5-2",
       "Parts": [
         {
-          "Part": "Sulfur",
-          "Amount": "-5"
+          "Part": "Sulfurous Gas",
+          "Amount": "-7"
         },
         {
           "Part": "Water",
-          "Amount": "-5"
+          "Amount": "-6"
         },
         {
           "Part": "Sulfuric Acid",
           "Amount": "5"
-        }
-      ]
-    },
-    {
-      "Name": "Super-State Computer",
-      "Machine": "Manufacturer",
-      "BatchTime": "25",
-      "Alternate": true,
-      "Tier": "8-2",
-      "Parts": [
-        {
-          "Part": "Computer",
-          "Amount": "-3"
         },
         {
-          "Part": "Electromagnetic Control Rod",
+          "Part": "Sulfur Powder",
+          "Amount": "4"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Sulfurous Gas",
+      "Machine": "Filtrator",
+      "BatchTime": "6",
+      "Tier": "5-2",
+      "Parts": [
+        {
+          "Part": "Flue Gas",
+          "Amount": "-5"
+        },
+        {
+          "Part": "Crushed Gangue",
           "Amount": "-1"
         },
         {
-          "Part": "Battery",
-          "Amount": "-10"
+          "Part": "Sulfurous Gas",
+          "Amount": "4.8"
         },
         {
-          "Part": "Wire",
-          "Amount": "-25"
+          "Part": "Sulfur",
+          "Amount": "2"
         },
         {
-          "Part": "Supercomputer",
+          "Part": "Cold Slag",
           "Amount": "1"
         }
-      ]
-    },
-    {
-      "Name": "Supercomputer",
-      "Machine": "Manufacturer",
-      "BatchTime": "32",
-      "Tier": "7-5",
-      "Parts": [
-        {
-          "Part": "Computer",
-          "Amount": "-4"
-        },
-        {
-          "Part": "AI Limiter",
-          "Amount": "-2"
-        },
-        {
-          "Part": "High-Speed Connector",
-          "Amount": "-3"
-        },
-        {
-          "Part": "Plastic",
-          "Amount": "-28"
-        },
-        {
-          "Part": "Supercomputer",
-          "Amount": "1"
-        }
-      ]
+      ],
+      "todo": "check",
+      "Credit": "asmo"
     },
     {
       "Name": "Sweet Fireworks",
@@ -8833,7 +10538,7 @@
       "Name": "Sweet Fuel",
       "Machine": "Chemical Reactor",
       "BatchTime": "6",
-      "Tier": "0-1",
+      "Tier": "5-0",
       "Parts": [
         {
           "Part": "Heavy Oil Residue",
@@ -8857,7 +10562,7 @@
       "Name": "Syngas Hydrogen",
       "Machine": "Chemical Reactor",
       "BatchTime": "12",
-      "Tier": "0-1",
+      "Tier": "5-1",
       "Parts": [
         {
           "Part": "Natural Gas",
@@ -8895,7 +10600,8 @@
           "Part": "Fabric",
           "Amount": "2"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Tailings Slurry Filtered",
@@ -8929,34 +10635,6 @@
         }
       ],
       "Credit": "asmo"
-    },
-    {
-      "Name": "Thermal Propulsion Rocket",
-      "Machine": "Manufacturer",
-      "BatchTime": "120",
-      "Tier": "8-4",
-      "Parts": [
-        {
-          "Part": "Modular Engine",
-          "Amount": "-5"
-        },
-        {
-          "Part": "Turbo Motor",
-          "Amount": "-2"
-        },
-        {
-          "Part": "Cooling System",
-          "Amount": "-6"
-        },
-        {
-          "Part": "Fused Modular Frame",
-          "Amount": "-2"
-        },
-        {
-          "Part": "Thermal Propulsion Rocket",
-          "Amount": "2"
-        }
-      ]
     },
     {
       "Name": "Thermal Silica",
@@ -9055,7 +10733,7 @@
       "Name": "Tin Sheet",
       "Machine": "Assembler",
       "BatchTime": "6",
-      "Tier": "0-0",
+      "Tier": "1-2",
       "Parts": [
         {
           "Part": "Tin Ingot",
@@ -9094,137 +10772,95 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Turbo Electric Motor",
-      "Machine": "Manufacturer",
-      "BatchTime": "64",
-      "Alternate": true,
-      "Tier": "8-4",
+      "Name": "Toxic Air",
+      "Machine": "Air Collector",
+      "BatchTime": "60",
+      "Tier": "3-3",
       "Parts": [
         {
-          "Part": "Motor",
-          "Amount": "-7"
-        },
-        {
-          "Part": "Radio Control Unit",
-          "Amount": "-9"
-        },
-        {
-          "Part": "Electromagnetic Control Rod",
-          "Amount": "-5"
-        },
-        {
-          "Part": "Rotor",
-          "Amount": "-7"
-        },
-        {
-          "Part": "Turbo Motor",
-          "Amount": "3"
+          "Part": "Toxic Air",
+          "Amount": "36"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
-      "Name": "Turbo Heavy Fuel",
-      "Machine": "Refinery",
-      "BatchTime": "8",
+      "Name": "Turbo Thermoplastic",
+      "Machine": "Reformer",
+      "BatchTime": "3",
+      "Tier": "5-0",
       "Alternate": true,
-      "Tier": "5-4",
       "Parts": [
         {
-          "Part": "Heavy Oil Residue",
-          "Amount": "-5"
-        },
-        {
-          "Part": "Compacted Coal",
-          "Amount": "-4"
+          "Part": "Ethylene Gas",
+          "Amount": "-2.4"
         },
         {
           "Part": "Turbofuel",
-          "Amount": "4"
-        }
-      ]
-    },
-    {
-      "Name": "Turbo Motor",
-      "Machine": "Manufacturer",
-      "BatchTime": "32",
-      "Tier": "8-4",
-      "Parts": [
-        {
-          "Part": "Cooling System",
-          "Amount": "-4"
-        },
-        {
-          "Part": "Radio Control Unit",
           "Amount": "-2"
         },
         {
-          "Part": "Motor",
-          "Amount": "-4"
+          "Part": "Plastic",
+          "Amount": "6"
         },
         {
           "Part": "Rubber",
-          "Amount": "-24"
+          "Amount": "6"
         },
         {
-          "Part": "Turbo Motor",
-          "Amount": "1"
-        }
-      ]
-    },
-    {
-      "Name": "Turbo Pressure Motor",
-      "Machine": "Manufacturer",
-      "BatchTime": "32",
-      "Alternate": true,
-      "Tier": "8-5",
-      "Parts": [
-        {
-          "Part": "Motor",
-          "Amount": "-4"
-        },
-        {
-          "Part": "Pressure Conversion Cube",
-          "Amount": "-1"
-        },
-        {
-          "Part": "Packaged Nitrogen Gas",
-          "Amount": "-24"
-        },
-        {
-          "Part": "Stator",
-          "Amount": "-8"
-        },
-        {
-          "Part": "Turbo Motor",
+          "Part": "Water",
           "Amount": "2"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
-      "Name": "Turbofuel",
-      "Machine": "Refinery",
-      "BatchTime": "16",
+      "Name": "Unpacked Air",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
       "Tier": "5-4",
       "Parts": [
         {
-          "Part": "Fuel",
-          "Amount": "-6"
+          "Part": "Packaged Air",
+          "Amount": "-1"
         },
         {
-          "Part": "Compacted Coal",
-          "Amount": "-4"
+          "Part": "Air",
+          "Amount": "2"
         },
         {
-          "Part": "Turbofuel",
-          "Amount": "5"
+          "Part": "Empty Fluid Tank",
+          "Amount": "1"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Alumina Solution",
+      "Name": "Unpacked Algal Mass",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
-      "Tier": "7-1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Algal Mass",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Algal Mass",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Canister",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Alumina Solution",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
       "Parts": [
         {
           "Part": "Packaged Alumina Solution",
@@ -9241,7 +10877,7 @@
       ]
     },
     {
-      "Name": "Unpackage Carbon Dioxide",
+      "Name": "Unpacked Carbon Dioxide",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9251,17 +10887,17 @@
           "Amount": "-1"
         },
         {
-          "Part": "Empty Fluid Tank",
-          "Amount": "1"
-        },
-        {
           "Part": "Flue Gas",
           "Amount": "2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "1"
         }
       ]
     },
     {
-      "Name": "Unpackage Caustic Soda",
+      "Name": "Unpacked Caustic Soda",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9282,7 +10918,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Cooling Water",
+      "Name": "Unpacked Cooling Water",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9303,7 +10939,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Dirty Water",
+      "Name": "Unpacked Dirty Water",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9324,7 +10960,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Ethylene Gas",
+      "Name": "Unpacked Ethylene Gas",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9345,7 +10981,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Flue Gas",
+      "Name": "Unpacked Flue Gas",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9366,7 +11002,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Fuel",
+      "Name": "Unpacked Fuel",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9386,7 +11022,7 @@
       ]
     },
     {
-      "Name": "Unpackage Heavy Oil Residue",
+      "Name": "Unpacked Heavy Oil Residue",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9407,7 +11043,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Hydrochloric Acid",
+      "Name": "Unpacked Hydrochloric Acid",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9428,7 +11064,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Hydrogen",
+      "Name": "Unpacked Hydrogen",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9438,17 +11074,17 @@
           "Amount": "-1"
         },
         {
-          "Part": "Empty Fluid Tank",
-          "Amount": "1"
-        },
-        {
           "Part": "Hydrogen Gas",
           "Amount": "2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "1"
         }
       ]
     },
     {
-      "Name": "Unpackage Ionized Fuel",
+      "Name": "Unpacked Ionized Fuel",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9468,7 +11104,7 @@
       ]
     },
     {
-      "Name": "Unpackage Liquid Biofuel",
+      "Name": "Unpacked Liquid Biofuel",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9485,13 +11121,413 @@
           "Part": "Empty Canister",
           "Amount": "1"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Nitric Acid",
+      "Name": "Unpacked Methane",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
-      "Tier": "5-0",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Methane",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Ethylene Gas",
+          "Amount": "2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Mineral Slug Slime",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Mineral Slug Slime",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Mineral Slug Slime",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Cryo Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Aluminium",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Aluminium",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Aluminium",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Brass",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Brass",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Brass",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Bronze",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Bronze",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Bronze",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Caterium",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Caterium",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Caterium",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Cobalt",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Cobalt",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Cobalt",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Copper",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Copper",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Copper",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Iron",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Iron",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Iron",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Lead",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Lead",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Lead",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Magnesium",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Magnesium",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Magnesium",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Magnitar",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Magnitar",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Magnitar",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Nickel",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Nickel",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Nickel",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Slag",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Slag",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Tailings Slurry",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Solder",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Solder",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Solder",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Steel",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Steel",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Steel",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Tin",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Tin",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Tin",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Molten Zinc",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Molten Zinc",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Molten Zinc",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Heat Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Natural Gas",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Natural Gas",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Natural Gas",
+          "Amount": "2"
+        },
+        {
+          "Part": "Empty Fluid Tank",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Nitric Acid",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
       "Parts": [
         {
           "Part": "Packaged Nitric Acid",
@@ -9502,13 +11538,14 @@
           "Amount": "1"
         },
         {
-          "Part": "Empty Fluid Tank",
+          "Part": "Empty Canister",
           "Amount": "1"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Nitrogen Gas",
+      "Name": "Unpacked Nitrogen Gas",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "8-3",
@@ -9525,10 +11562,32 @@
           "Part": "Empty Fluid Tank",
           "Amount": "1"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
-      "Name": "Unpackage Oxyhydrogen",
+      "Name": "Unpacked Oil",
+      "Machine": "A.I. Fluid Packer",
+      "BatchTime": "1",
+      "Tier": "5-4",
+      "Parts": [
+        {
+          "Part": "Packaged Oil",
+          "Amount": "-1"
+        },
+        {
+          "Part": "Crude Oil",
+          "Amount": "1"
+        },
+        {
+          "Part": "Empty Barrel",
+          "Amount": "1"
+        }
+      ],
+      "Credit": "asmo"
+    },
+    {
+      "Name": "Unpacked Oxyhydrogen",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9549,7 +11608,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Purified Crude Oil",
+      "Name": "Unpacked Purified Crude Oil",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9570,7 +11629,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Raw Sludge",
+      "Name": "Unpacked Raw Sludge",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9591,7 +11650,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Rocket Fuel",
+      "Name": "Unpacked Rocket Fuel",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9608,10 +11667,11 @@
           "Part": "Empty Fluid Tank",
           "Amount": "1"
         }
-      ]
+      ],
+      "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Slug Slime",
+      "Name": "Unpacked Slug Slime",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9632,7 +11692,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Steam",
+      "Name": "Unpacked Steam",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9653,7 +11713,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Sulfuric Acid",
+      "Name": "Unpacked Sulfuric Acid",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "7-5",
@@ -9673,7 +11733,7 @@
       ]
     },
     {
-      "Name": "Unpackage Sulfurous Gas",
+      "Name": "Unpacked Sulfurous Gas",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9694,7 +11754,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Toxic Air",
+      "Name": "Unpacked Toxic Air",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9715,7 +11775,7 @@
       "Credit": "asmo"
     },
     {
-      "Name": "Unpackage Turbofuel",
+      "Name": "Unpacked Turbofuel",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -9735,7 +11795,7 @@
       ]
     },
     {
-      "Name": "Unpackage Water",
+      "Name": "Unpacked Water",
       "Machine": "A.I. Fluid Packer",
       "BatchTime": "1",
       "Tier": "5-4",
@@ -10044,7 +12104,8 @@
           "Part": "Water",
           "Amount": "120"
         }
-      ]
+      ],
+      "todo": "check"
     },
     {
       "Name": "Water (mini)",
@@ -10057,19 +12118,8 @@
           "Amount": "75"
         }
       ],
+      "todo": "check",
       "Credit": "asmo"
-    },
-    {
-      "Name": "Well Water",
-      "Machine": "Resource Well Extractor",
-      "BatchTime": "1",
-      "Tier": "8-3",
-      "Parts": [
-        {
-          "Part": "Water",
-          "Amount": "1"
-        }
-      ]
     },
     {
       "Name": "Wood Biomass Burner",
@@ -10087,7 +12137,7 @@
       "Name": "Zinc Ingot",
       "Machine": "Smelter",
       "BatchTime": "20",
-      "Tier": "0-0",
+      "Tier": "2-2",
       "Parts": [
         {
           "Part": "Crushed Zinc",
